@@ -4,12 +4,12 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
             <TypeId>Inventory</TypeId>
-            <SubtypeId>AS2-B-ATM-Claim-T1</SubtypeId>
+            <SubtypeId>AS2-Behaviour-Placeholder</SubtypeId>
         </Id>
         <Description>
             [RivalAI Behavior]
             [BehaviorName:Passive]
-            [Triggers:AS2-T-ATM-Claim-T1]
+            [Triggers:AS2-Trigger-Placeholder]
         </Description>
     </EntityComponent>
 </EntityComponents>

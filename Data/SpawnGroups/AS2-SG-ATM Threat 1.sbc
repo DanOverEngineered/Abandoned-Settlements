@@ -26,14 +26,14 @@
 			<IsPirate>true</IsPirate> 
 			<Frequency>40</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="AS2-ClaimMarker">
+				<Prefab SubtypeId="AS2-Claim-Marker">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
-					<Behaviour>AS2-B-ATM-Claim-T1</Behaviour>
+					<Behaviour>AS2-Behaviour-Placeholder</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>	
