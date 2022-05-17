@@ -10,8 +10,7 @@
                 [Modular Encounters SpawnGroup]
 
 				[SpawnConditionsProfiles:AS2-SCP-Placeholder]
-                [FactionOwner:SPRT]
-                [PlanetaryInstallation:true]
+                
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [ReplenishSystems:false]
@@ -20,11 +19,7 @@
                 [UseRandomNameGenerator:true]
                 [RandomGridNamePattern:SurnamesNoun Claim]
                 [ReplaceAntennaNameWithRandomizedName:Antenna]
-                
-                [UseThreatLevelCheck:true]
-                [ThreatLevelCheckRange:6000]
-                [ThreatScoreMinimum:0]
-                [ThreatScoreMaximum:10]
+
 			</Description>
 			<IsPirate>true</IsPirate> 
 			<Frequency>40</Frequency>
@@ -33,6 +28,110 @@
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-Behaviour-Placeholder</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-MaintenanceSpawner-T1</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-SCP-Placeholder]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:false]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SurnamesNoun Maintenance]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>10</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-MaintenanceRover">
+					<Position>
+						<X>0.0</X>
+						<Y>0.75</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-Behaviour-Placeholder</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-SecuritySpawner-T1</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-SCP-Placeholder]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:false]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SurnamesNoun Security]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>10</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-SecurityRover">
+					<Position>
+						<X>0.0</X>
+						<Y>0.75</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-Behaviour-Placeholder</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-SurveySpawner-T1</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-SCP-Placeholder]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:false]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SurnamesNoun Surveyor]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>10</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-SurveyRover">
+					<Position>
+						<X>0.0</X>
+						<Y>0.5</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>

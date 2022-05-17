@@ -12,7 +12,7 @@
             [UseTrigger:true]
             [Type:Timer]
             [StartsReady:true]
-            [MaxActions:1]
+            [MaxActions:-1]
             [Actions:AS2-Action-Placeholder]
         </Description>
     </EntityComponent>
