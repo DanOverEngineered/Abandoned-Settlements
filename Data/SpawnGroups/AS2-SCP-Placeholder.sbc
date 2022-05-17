@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-SCP-Placeholder</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+        [PlanetaryInstallation:true]
+        [PlanetaryInstallationType:Small]
+
+        [ForceStaticGrid:true]
+
+        [FactionOwner:SPRT]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:10]
+        
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>
