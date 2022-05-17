@@ -50,6 +50,8 @@
                 [RivalAiReplaceRemoteControl:true]
                 [ReplenishSystems:false]
                 [IgnoreCleanupRules:true]
+
+				[DisableTimerBlocks:true]
                 
                 [UseRandomNameGenerator:true]
                 [RandomGridNamePattern:SurnamesNoun Maintenance]
@@ -62,7 +64,7 @@
 				<Prefab SubtypeId="AS2-MaintenanceRover">
 					<Position>
 						<X>0.0</X>
-						<Y>0.75</Y>
+						<Y>0.5</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
@@ -85,6 +87,8 @@
                 [RivalAiReplaceRemoteControl:true]
                 [ReplenishSystems:false]
                 [IgnoreCleanupRules:true]
+
+				[DisableTimerBlocks:true]
                 
                 [UseRandomNameGenerator:true]
                 [RandomGridNamePattern:SurnamesNoun Security]
@@ -97,7 +101,7 @@
 				<Prefab SubtypeId="AS2-SecurityRover">
 					<Position>
 						<X>0.0</X>
-						<Y>0.75</Y>
+						<Y>0.5</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
@@ -119,6 +123,8 @@
                 [RivalAiReplaceRemoteControl:true]
                 [ReplenishSystems:false]
                 [IgnoreCleanupRules:true]
+
+				[DisableTimerBlocks:true]
                 
                 [UseRandomNameGenerator:true]
                 [RandomGridNamePattern:SurnamesNoun Surveyor]

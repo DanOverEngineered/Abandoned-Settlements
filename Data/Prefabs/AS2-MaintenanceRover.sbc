@@ -6,18 +6,18 @@
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>86998647284640966</EntityId>
+          <EntityId>128543420051450909</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
-          <Name>86998647284640966</Name>
+          <Name>128543420051450909</Name>
           <PositionAndOrientation>
             <Position x="0" y="0" z="0" />
-            <Forward x="-0.636945248" y="0.339851" z="0.6919553" />
-            <Up x="0.433448136" y="0.900146544" z="-0.0431140065" />
+            <Forward x="-0.6366948" y="0.339736879" z="0.6922417" />
+            <Up x="0.4334406" y="0.900150239" z="-0.04311338" />
             <Orientation>
-              <X>0.196402133</X>
-              <Y>0.89855653</Y>
-              <Z>-0.10655006</Z>
-              <W>0.3777161</W>
+              <X>0.196419626</X>
+              <Y>0.8986324</Y>
+              <Z>-0.106509134</Z>
+              <W>0.377538</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -79,7 +79,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
               <SubtypeName>SmallBlockMediumContainer</SubtypeName>
-              <EntityId>109252470798722876</EntityId>
+              <EntityId>115619081266420694</EntityId>
               <Min x="-1" y="6" z="-11" />
               <BlockOrientation Forward="Right" Up="Up" />
               <ColorMaskHSV x="0.122222222" y="-0.52" z="-0.27" />
@@ -147,7 +147,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
               <SubtypeName>ConnectorMedium</SubtypeName>
-              <EntityId>91566961606818704</EntityId>
+              <EntityId>111785240559003646</EntityId>
               <Min x="-1" y="6" z="-8" />
               <IntegrityPercent>0.700000048</IntegrityPercent>
               <BuildPercent>0.700000048</BuildPercent>
@@ -242,7 +242,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Decoy">
               <SubtypeName>SmallDecoy</SubtypeName>
-              <EntityId>92553263883777181</EntityId>
+              <EntityId>128026784952880674</EntityId>
               <Min x="-2" y="6" z="-10" />
               <IntegrityPercent>0.25</IntegrityPercent>
               <BuildPercent>0.25</BuildPercent>
@@ -258,7 +258,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Decoy">
               <SubtypeName>SmallDecoy</SubtypeName>
-              <EntityId>132326051260586744</EntityId>
+              <EntityId>91007567248167005</EntityId>
               <Min x="2" y="6" z="-10" />
               <IntegrityPercent>0.34375</IntegrityPercent>
               <BuildPercent>0.34375</BuildPercent>
@@ -286,7 +286,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
               <SubtypeName>SmallSuspension3x3</SubtypeName>
-              <EntityId>81251895978001771</EntityId>
+              <EntityId>99280364490253074</EntityId>
               <Min x="2" y="5" z="-12" />
               <BlockOrientation Forward="Up" Up="Right" />
               <ColorMaskHSV x="0.122222222" y="-0.52" z="-0.27" />
@@ -325,7 +325,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
               <SubtypeName>SmallSuspension3x3</SubtypeName>
-              <EntityId>116563955480315153</EntityId>
+              <EntityId>139296985478002075</EntityId>
               <Min x="2" y="5" z="-8" />
               <IntegrityPercent>0.4</IntegrityPercent>
               <BuildPercent>0.4</BuildPercent>
@@ -366,7 +366,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
               <SubtypeName>SmallSuspension3x3mirrored</SubtypeName>
-              <EntityId>87878996648165863</EntityId>
+              <EntityId>84171822045131230</EntityId>
               <Min x="-3" y="5" z="-12" />
               <IntegrityPercent>0.4</IntegrityPercent>
               <BuildPercent>0.4</BuildPercent>
@@ -414,7 +414,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
               <SubtypeName>SmallSuspension3x3</SubtypeName>
-              <EntityId>131400687692043871</EntityId>
+              <EntityId>140778234202494356</EntityId>
               <Min x="-3" y="5" z="-8" />
               <IntegrityPercent>0.25</IntegrityPercent>
               <BuildPercent>0.25</BuildPercent>
@@ -548,7 +548,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ReflectorLight">
               <SubtypeName>SmallBlockFrontLight</SubtypeName>
-              <EntityId>120197748467126180</EntityId>
+              <EntityId>106224399026254436</EntityId>
               <Min x="-2" y="7" z="-14" />
               <IntegrityPercent>0.3571429</IntegrityPercent>
               <BuildPercent>0.3571429</BuildPercent>
@@ -608,7 +608,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>SmallBlockSmallLight</SubtypeName>
-              <EntityId>83176731504937044</EntityId>
+              <EntityId>85846731381777582</EntityId>
               <Min x="2" y="7" z="-7" />
               <IntegrityPercent>0.5</IntegrityPercent>
               <BuildPercent>0.5</BuildPercent>
@@ -635,7 +635,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>SmallBlockSmallLight</SubtypeName>
-              <EntityId>140030155942228796</EntityId>
+              <EntityId>99574220968082209</EntityId>
               <Min x="-2" y="7" z="-7" />
               <IntegrityPercent>0.5</IntegrityPercent>
               <BuildPercent>0.5</BuildPercent>
@@ -662,7 +662,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
-              <EntityId>96387084119354445</EntityId>
+              <EntityId>83175820747972024</EntityId>
               <Min x="2" y="6" z="-19" />
               <IntegrityPercent>0.399999976</IntegrityPercent>
               <BuildPercent>0.399999976</BuildPercent>
@@ -672,7 +672,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenGenerator">
               <SubtypeName>OxygenGeneratorSmall</SubtypeName>
-              <EntityId>89924584926843379</EntityId>
+              <EntityId>103789986765341952</EntityId>
               <Min x="-1" y="6" z="-14" />
               <BlockOrientation Forward="Backward" Up="Up" />
               <ColorMaskHSV x="0.122222222" y="-0.52" z="-0.27" />
@@ -727,7 +727,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
               <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
-              <EntityId>116893786067860181</EntityId>
+              <EntityId>133544372402826615</EntityId>
               <Min x="0" y="8" z="-12" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.122222222" y="-0.52" z="-0.27" />
@@ -739,14 +739,14 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
               <BroadcastRadius>5000</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
               <EnableBroadcasting>true</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
               <IgnoreAllied>false</IgnoreAllied>
               <IgnoreOther>true</IgnoreOther>
-              <HudText></HudText>
+              <HudText />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorBlock</SubtypeName>
@@ -756,12 +756,11 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
               <SubtypeName>SmallBlockRemoteControl</SubtypeName>
-              <EntityId>127080513607649070</EntityId>
+              <EntityId>104426728138425317</EntityId>
               <Min x="1" y="8" z="-12" />
-              <IntegrityPercent>0.7857143</IntegrityPercent>
-              <BuildPercent>0.7857143</BuildPercent>
               <ColorMaskHSV x="0.122222222" y="-0.52" z="-0.27" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -805,7 +804,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>101565361720654173</EntityId>
+              <EntityId>104595222234228496</EntityId>
               <Min x="-1" y="7" z="-12" />
               <BlockOrientation Forward="Right" Up="Up" />
               <ColorMaskHSV x="0.122222222" y="-0.52" z="-0.27" />
@@ -827,7 +826,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>137969314186310066</EntityId>
+              <EntityId>75087401939741821</EntityId>
               <Min x="-1" y="6" z="-12" />
               <BlockOrientation Forward="Right" Up="Up" />
               <ColorMaskHSV x="0.122222222" y="-0.52" z="-0.27" />
@@ -849,7 +848,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>139186580840572723</EntityId>
+              <EntityId>81683747681737290</EntityId>
               <Min x="1" y="7" z="-12" />
               <BlockOrientation Forward="Right" Up="Up" />
               <ColorMaskHSV x="0.122222222" y="-0.52" z="-0.27" />
@@ -871,7 +870,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>85444123471314701</EntityId>
+              <EntityId>137311138264907715</EntityId>
               <Min x="1" y="6" z="-12" />
               <BlockOrientation Forward="Right" Up="Up" />
               <ColorMaskHSV x="0.122222222" y="-0.52" z="-0.27" />
@@ -893,7 +892,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
               <SubtypeName>TimerBlockSmall</SubtypeName>
-              <EntityId>123767226286209998</EntityId>
+              <EntityId>121463333145264787</EntityId>
               <Min x="0" y="7" z="-12" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0.122222222" y="-0.52" z="-0.27" />
@@ -905,7 +904,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
-              <Enabled>true</Enabled>
+              <Enabled>false</Enabled>
               <Toolbar>
                 <ToolbarType>Character</ToolbarType>
                 <SelectedSlot xsi:nil="true" />
@@ -915,7 +914,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>Start</Action>
-                      <BlockEntityId>108760733499597330</BlockEntityId>
+                      <BlockEntityId>143757534232159289</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -923,20 +922,20 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff_On</Action>
-                      <BlockEntityId>116893786067860181</BlockEntityId>
+                      <BlockEntityId>133544372402826615</BlockEntityId>
                     </Data>
                   </Slot>
                 </Slots>
                 <SlotsGamepad />
               </Toolbar>
               <Delay>10000</Delay>
-              <CurrentTime>4688</CurrentTime>
+              <CurrentTime>5850</CurrentTime>
               <IsCountingDown>true</IsCountingDown>
               <Silent>true</Silent>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
               <SubtypeName>TimerBlockSmall</SubtypeName>
-              <EntityId>108760733499597330</EntityId>
+              <EntityId>143757534232159289</EntityId>
               <Min x="0" y="6" z="-12" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0.122222222" y="-0.52" z="-0.27" />
@@ -948,7 +947,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>2</NumberInGrid>
-              <Enabled>true</Enabled>
+              <Enabled>false</Enabled>
               <Toolbar>
                 <ToolbarType>Character</ToolbarType>
                 <SelectedSlot xsi:nil="true" />
@@ -958,15 +957,15 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>Start</Action>
-                      <BlockEntityId>123767226286209998</BlockEntityId>
+                      <BlockEntityId>121463333145264787</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
                     <Index>1</Index>
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>OnOff</Action>
-                      <BlockEntityId>116893786067860181</BlockEntityId>
+                      <Action>OnOff_Off</Action>
+                      <BlockEntityId>133544372402826615</BlockEntityId>
                     </Data>
                   </Slot>
                 </Slots>
@@ -975,7 +974,7 @@
               <Delay>4000</Delay>
               <CurrentTime>0</CurrentTime>
               <IsCountingDown>false</IsCountingDown>
-              <Silent>false</Silent>
+              <Silent>true</Silent>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
@@ -986,7 +985,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
               <SubtypeName>SmallBlockCockpit</SubtypeName>
-              <EntityId>122318444444234332</EntityId>
+              <EntityId>122695058541074744</EntityId>
               <Min x="-1" y="6" z="-17" />
               <IntegrityPercent>0.375</IntegrityPercent>
               <BuildPercent>0.375</BuildPercent>
@@ -1056,7 +1055,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>ShowOnHUD</Action>
-                      <BlockEntityId>122318444444234332</BlockEntityId>
+                      <BlockEntityId>122695058541074744</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1064,7 +1063,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff</Action>
-                      <BlockEntityId>137682148084470795</BlockEntityId>
+                      <BlockEntityId>103231621165429317</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1072,7 +1071,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>Recharge</Action>
-                      <BlockEntityId>81053297282876034</BlockEntityId>
+                      <BlockEntityId>81629288738896068</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1080,7 +1079,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff</Action>
-                      <BlockEntityId>122540275957596207</BlockEntityId>
+                      <BlockEntityId>112564157702905451</BlockEntityId>
                     </Data>
                   </Slot>
                 </Slots>
@@ -1090,7 +1089,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>ShowOnHUD</Action>
-                      <BlockEntityId>122318444444234332</BlockEntityId>
+                      <BlockEntityId>122695058541074744</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1098,7 +1097,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff</Action>
-                      <BlockEntityId>137682148084470795</BlockEntityId>
+                      <BlockEntityId>103231621165429317</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1106,7 +1105,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>Recharge</Action>
-                      <BlockEntityId>81053297282876034</BlockEntityId>
+                      <BlockEntityId>81629288738896068</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1114,7 +1113,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff</Action>
-                      <BlockEntityId>122540275957596207</BlockEntityId>
+                      <BlockEntityId>112564157702905451</BlockEntityId>
                     </Data>
                   </Slot>
                 </SlotsGamepad>
@@ -1133,14 +1132,14 @@
                 <SlotsGamepad />
               </OnLockedToolbar>
               <PilotRelativeWorld>
-                <Position x="-3.5081090927124023" y="-1.3571072816848755" z="-0.41432368755340576" />
-                <Forward x="0.9755232" y="0.0424483567" z="0.215761453" />
-                <Up x="-0.05230136" y="0.997823536" z="0.0401608273" />
+                <Position x="1.2111060619354248" y="-0.0451374426484108" z="-3.8114562034606934" />
+                <Forward x="-0.2632161" y="-0.352967739" z="0.897848" />
+                <Up x="-0.0327910222" y="0.9334017" z="0.357331723" />
                 <Orientation>
-                  <X>0.032980673</X>
-                  <Y>-0.778969169</Y>
-                  <Z>0.0007341472</Z>
-                  <W>0.6261939</W>
+                  <X>0.008167365</X>
+                  <Y>0.9740931</Y>
+                  <Z>0.182297632</Z>
+                  <W>0.1335798</W>
                 </Orientation>
               </PilotRelativeWorld>
               <PilotGunDefinition xsi:nil="true" />
@@ -1371,7 +1370,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
-              <EntityId>107252936679531133</EntityId>
+              <EntityId>108213704196806912</EntityId>
               <Min x="2" y="6" z="-18" />
               <IntegrityPercent>0.8</IntegrityPercent>
               <BuildPercent>0.8</BuildPercent>
@@ -1381,7 +1380,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorHalfSlopedCornerBase</SubtypeName>
-              <EntityId>130760763817705289</EntityId>
+              <EntityId>91164215896997135</EntityId>
               <Min x="2" y="5" z="-19" />
               <IntegrityPercent>0.7</IntegrityPercent>
               <BuildPercent>0.7</BuildPercent>
@@ -1391,7 +1390,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
               <SubtypeName>SmallSuspension3x3</SubtypeName>
-              <EntityId>105871947997552184</EntityId>
+              <EntityId>124456122025576246</EntityId>
               <Min x="2" y="5" z="-18" />
               <IntegrityPercent>0.7</IntegrityPercent>
               <BuildPercent>0.7</BuildPercent>
@@ -1438,7 +1437,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Decoy">
               <SubtypeName>SmallDecoy</SubtypeName>
-              <EntityId>82294517490128275</EntityId>
+              <EntityId>98349751233758518</EntityId>
               <Min x="2" y="6" z="-16" />
               <IntegrityPercent>0.25</IntegrityPercent>
               <BuildPercent>0.25</BuildPercent>
@@ -1454,7 +1453,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirVent">
               <SubtypeName>SmallAirVent</SubtypeName>
-              <EntityId>122540275957596207</EntityId>
+              <EntityId>112564157702905451</EntityId>
               <Min x="0" y="6" z="-18" />
               <IntegrityPercent>0.55</IntegrityPercent>
               <BuildPercent>0.55</BuildPercent>
@@ -1471,7 +1470,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Decoy">
               <SubtypeName>SmallDecoy</SubtypeName>
-              <EntityId>83775358103180576</EntityId>
+              <EntityId>134834510046699171</EntityId>
               <Min x="-2" y="6" z="-16" />
               <IntegrityPercent>0.4375</IntegrityPercent>
               <BuildPercent>0.4375</BuildPercent>
@@ -1487,7 +1486,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>91568478541523972</EntityId>
+              <EntityId>100225148850200119</EntityId>
               <Min x="-2" y="6" z="-17" />
               <IntegrityPercent>0.6</IntegrityPercent>
               <BuildPercent>0.6</BuildPercent>
@@ -1503,7 +1502,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
-              <EntityId>121005958114194608</EntityId>
+              <EntityId>133576865076271451</EntityId>
               <Min x="-2" y="6" z="-15" />
               <IntegrityPercent>0.6</IntegrityPercent>
               <BuildPercent>0.6</BuildPercent>
@@ -1513,7 +1512,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
-              <EntityId>130890343363411497</EntityId>
+              <EntityId>79549024258966047</EntityId>
               <Min x="-2" y="6" z="-18" />
               <IntegrityPercent>0.6</IntegrityPercent>
               <BuildPercent>0.6</BuildPercent>
@@ -1530,7 +1529,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
               <SubtypeName>SmallSuspension3x3mirrored</SubtypeName>
-              <EntityId>121109979111176346</EntityId>
+              <EntityId>86553642318784032</EntityId>
               <Min x="-3" y="5" z="-18" />
               <IntegrityPercent>0.1</IntegrityPercent>
               <BuildPercent>0.1</BuildPercent>
@@ -1571,7 +1570,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorHalfSlopedCornerBase</SubtypeName>
-              <EntityId>98142454280591733</EntityId>
+              <EntityId>142654355072885544</EntityId>
               <Min x="-2" y="5" z="-19" />
               <IntegrityPercent>0.7</IntegrityPercent>
               <BuildPercent>0.7</BuildPercent>
@@ -1581,7 +1580,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_PistonTop">
               <SubtypeName>SmallPistonTop</SubtypeName>
-              <EntityId>101900827371328975</EntityId>
+              <EntityId>138172687322677216</EntityId>
               <Min x="-3" y="6" z="-10" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.08888889" y="-0.31" z="0.04" />
@@ -1591,7 +1590,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_PistonTop">
               <SubtypeName>SmallPistonTop</SubtypeName>
-              <EntityId>100843825276276775</EntityId>
+              <EntityId>137177093655229508</EntityId>
               <Min x="-3" y="6" z="-16" />
               <IntegrityPercent>0.4</IntegrityPercent>
               <BuildPercent>0.4</BuildPercent>
@@ -1603,7 +1602,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_PistonTop">
               <SubtypeName>SmallPistonTop</SubtypeName>
-              <EntityId>125787037141904475</EntityId>
+              <EntityId>105029361493221316</EntityId>
               <Min x="3" y="6" z="-16" />
               <IntegrityPercent>0.4</IntegrityPercent>
               <BuildPercent>0.4</BuildPercent>
@@ -1615,7 +1614,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_PistonTop">
               <SubtypeName>SmallPistonTop</SubtypeName>
-              <EntityId>94823114053550981</EntityId>
+              <EntityId>105705704900388262</EntityId>
               <Min x="3" y="6" z="-10" />
               <BlockOrientation Forward="Down" Up="Left" />
               <ColorMaskHSV x="0.08888889" y="-0.31" z="0.04" />
