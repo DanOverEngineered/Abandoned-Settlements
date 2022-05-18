@@ -4,7 +4,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> 
-				<SubtypeId>AS2-ClaimSpawner-T1</SubtypeId>
+				<SubtypeId>AS2-ClaimSpawner-T3</SubtypeId>
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
@@ -39,7 +39,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> 
-				<SubtypeId>AS2-MaintenanceSpawner-T1</SubtypeId>
+				<SubtypeId>AS2-MaintenanceSpawner-T3</SubtypeId>
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
@@ -54,7 +54,7 @@
 				[DisableTimerBlocks:true]
                 
                 [UseRandomNameGenerator:true]
-                [RandomGridNamePattern:SurnamesNoun Maintenance]
+                [RandomGridNamePattern:MNT-RandomNumberRandomNumberRandomNumber]
                 [ReplaceAntennaNameWithRandomizedName:Antenna]
 
 			</Description>
@@ -76,7 +76,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> 
-				<SubtypeId>AS2-SecuritySpawner-T1</SubtypeId>
+				<SubtypeId>AS2-SecuritySpawner-T3</SubtypeId>
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
@@ -91,7 +91,7 @@
 				[DisableTimerBlocks:true]
                 
                 [UseRandomNameGenerator:true]
-                [RandomGridNamePattern:SurnamesNoun Security]
+                [RandomGridNamePattern:SEC-RandomNumberRandomNumberRandomNumber]
                 [ReplaceAntennaNameWithRandomizedName:Antenna]
 
 			</Description>
@@ -112,7 +112,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> 
-				<SubtypeId>AS2-SurveySpawner-T1</SubtypeId>
+				<SubtypeId>AS2-SurveySpawner-T3</SubtypeId>
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
@@ -127,7 +127,7 @@
 				[DisableTimerBlocks:true]
                 
                 [UseRandomNameGenerator:true]
-                [RandomGridNamePattern:SurnamesNoun Surveyor]
+                [RandomGridNamePattern:SRV-RandomNumberRandomNumberRandomNumber]
                 [ReplaceAntennaNameWithRandomizedName:Antenna]
 
 			</Description>
