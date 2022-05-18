@@ -9,7 +9,7 @@
 			<Description>
                 [Modular Encounters SpawnGroup]
 
-				[SpawnConditionsProfiles:AS2-SCP-Placeholder]
+				[SpawnConditionsProfiles:AS2-B3-SpawnCondition]
                 
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
@@ -44,7 +44,7 @@
 			<Description>
                 [Modular Encounters SpawnGroup]
 
-				[SpawnConditionsProfiles:AS2-SCP-Placeholder]
+				[SpawnConditionsProfiles:AS2-B3-SpawnCondition]
                 
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
@@ -81,7 +81,7 @@
 			<Description>
                 [Modular Encounters SpawnGroup]
 
-				[SpawnConditionsProfiles:AS2-SCP-Placeholder]
+				[SpawnConditionsProfiles:AS2-B3-SpawnCondition]
                 
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
@@ -117,7 +117,7 @@
 			<Description>
                 [Modular Encounters SpawnGroup]
 
-				[SpawnConditionsProfiles:AS2-SCP-Placeholder]
+				[SpawnConditionsProfiles:AS2-B3-SpawnCondition]
                 
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]

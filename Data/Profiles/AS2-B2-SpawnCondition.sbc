@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>AS2-SCP-Placeholder</SubtypeId>
+        <SubtypeId>AS2-B2-SpawnCondition</SubtypeId>
       </Id>
       <Description>
 
@@ -18,8 +18,8 @@
         [FactionOwner:SPRT]
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:0]
-        [ThreatScoreMaximum:10]
+        [ThreatScoreMinimum:15]
+        [ThreatScoreMaximum:25]
 
       </Description>
 
