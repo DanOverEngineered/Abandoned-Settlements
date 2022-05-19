@@ -1,4 +1,4 @@
-Naming Convention
+#Naming Convention
 
 AS2-B0-SpawnGroup.sbc
 AS2 - Mod Version
