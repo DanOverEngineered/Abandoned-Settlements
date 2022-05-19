@@ -9,7 +9,7 @@
         <Description>
             [RivalAI Behavior]
             [BehaviorName:Passive]
-            [Triggers:AS2-Trigger-Placeholder]
+            [Triggers:AS2-B0-Trigger]
         </Description>
     </EntityComponent>
 </EntityComponents>

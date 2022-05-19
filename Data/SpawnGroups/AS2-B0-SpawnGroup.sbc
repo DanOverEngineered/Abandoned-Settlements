@@ -4,7 +4,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> 
-				<SubtypeId>AS2-ClaimSpawner-T0</SubtypeId>
+				<SubtypeId>AS2-Respawn-T0</SubtypeId>
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
@@ -15,134 +15,56 @@
                 [RivalAiReplaceRemoteControl:true]
                 [ReplenishSystems:false]
                 [IgnoreCleanupRules:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>60</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-RespawnPod-Wreckage">
+					<Position>
+						<X>0.0</X>
+						<Y>2.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B0-Behaviour</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-SARSpawner-T0</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B0-SpawnCondition]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:false]
+                [IgnoreCleanupRules:true]
+
+				[DisableTimerBlocks:true]
                 
                 [UseRandomNameGenerator:true]
-                [RandomGridNamePattern:SurnamesNoun Claim]
+                [RandomGridNamePattern:SAR-RandomNumberRandomNumberRandomNumber]
                 [ReplaceAntennaNameWithRandomizedName:Antenna]
 
 			</Description>
 			<IsPirate>true</IsPirate> 
 			<Frequency>40</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="AS2-Claim-Marker">
-					<Position>
-						<X>0.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>0.0</Speed>
-					<Behaviour>AS2-Behaviour-Placeholder</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>	
-
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId> 
-				<SubtypeId>AS2-MaintenanceSpawner-T0</SubtypeId>
-			</Id>
-			<Description>
-                [Modular Encounters SpawnGroup]
-
-				[SpawnConditionsProfiles:AS2-B0-SpawnCondition]
-                
-                [UseRivalAi:true]
-                [RivalAiReplaceRemoteControl:true]
-                [ReplenishSystems:false]
-                [IgnoreCleanupRules:true]
-
-				[DisableTimerBlocks:true]
-                
-                [UseRandomNameGenerator:true]
-                [RandomGridNamePattern:MNT-RandomNumberRandomNumberRandomNumber]
-                [ReplaceAntennaNameWithRandomizedName:Antenna]
-
-			</Description>
-			<IsPirate>true</IsPirate> 
-			<Frequency>10</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="AS2-MaintenanceRover">
+				<Prefab SubtypeId="AS2-SARRover">
 					<Position>
 						<X>0.0</X>
 						<Y>0.5</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
-					<Behaviour>AS2-Behaviour-Placeholder</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>	
-
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId> 
-				<SubtypeId>AS2-SecuritySpawner-T0</SubtypeId>
-			</Id>
-			<Description>
-                [Modular Encounters SpawnGroup]
-
-				[SpawnConditionsProfiles:AS2-B0-SpawnCondition]
-                
-                [UseRivalAi:true]
-                [RivalAiReplaceRemoteControl:true]
-                [ReplenishSystems:false]
-                [IgnoreCleanupRules:true]
-
-				[DisableTimerBlocks:true]
-                
-                [UseRandomNameGenerator:true]
-                [RandomGridNamePattern:SEC-RandomNumberRandomNumberRandomNumber]
-                [ReplaceAntennaNameWithRandomizedName:Antenna]
-
-			</Description>
-			<IsPirate>true</IsPirate> 
-			<Frequency>10</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="AS2-SecurityRover">
-					<Position>
-						<X>0.0</X>
-						<Y>0.5</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>0.0</Speed>
-					<Behaviour>AS2-Behaviour-Placeholder</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
-			
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId> 
-				<SubtypeId>AS2-SurveySpawner-T0</SubtypeId>
-			</Id>
-			<Description>
-                [Modular Encounters SpawnGroup]
-
-				[SpawnConditionsProfiles:AS2-B0-SpawnCondition]
-                
-                [UseRivalAi:true]
-                [RivalAiReplaceRemoteControl:true]
-                [ReplenishSystems:false]
-                [IgnoreCleanupRules:true]
-
-				[DisableTimerBlocks:true]
-                
-                [UseRandomNameGenerator:true]
-                [RandomGridNamePattern:SRV-RandomNumberRandomNumberRandomNumber]
-                [ReplaceAntennaNameWithRandomizedName:Antenna]
-
-			</Description>
-			<IsPirate>true</IsPirate> 
-			<Frequency>10</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="AS2-SurveyRover">
-					<Position>
-						<X>0.0</X>
-						<Y>0.5</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>0.0</Speed>
-					<Behaviour>AS2-Behaviour-Placeholder</Behaviour>
+					<Behaviour>AS2-B0-Behaviour</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>	

@@ -27,12 +27,6 @@
             [SpawnEncounter:true]
             [Spawner:AS2-B0-Spawn-Cargo]
             [Spawner:AS2-B0-Spawn-Cargo]
-            [Spawner:AS2-B0-Spawn-Cargo]
-            [Spawner:AS2-B0-Spawn-Cargo]
-            [Spawner:AS2-B0-Spawn-Pallets]
-            [Spawner:AS2-B0-Spawn-Pallets]
-            [Spawner:AS2-B0-Spawn-Pallets]
-            [Spawner:AS2-B0-Spawn-Pallets]
         </Description>
     </EntityComponent>
 
@@ -46,37 +40,14 @@
             [UseSpawn:true]
             [StartsReady:true]
             [MaxSpawns:-1]
-            [SpawnGroups:AS2-Cargo-1]
-            [SpawnGroups:AS2-Cargo-2]
-            [SpawnGroups:AS2-Cargo-3]
+            [SpawnGroups:AS2-LootCrate-Single]
+            [SpawnGroups:AS2-LootCrate-Double]
+            [SpawnGroups:AS2-LootCrate-Large]
             [UseRelativeSpawnPosition:false]
-            [MinDistance:40]
-            [MaxDistance:100]
+            [MinDistance:10]
+            [MaxDistance:20]
             [IgnoreSafetyChecks:false]
         </Description>
     </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-        <Id>
-            <TypeId>Inventory</TypeId>
-            <SubtypeId>AS2-B0-Spawn-Pallets</SubtypeId>
-        </Id>
-        <Description>
-            [RivalAI Spawn]
-            [UseSpawn:true]
-            [StartsReady:true]
-            [MaxSpawns:-1]
-            [SpawnGroups:AS2-Pallet-Generator]
-            [SpawnGroups:AS2-Pallet-Cargo]
-            [SpawnGroups:AS2-Pallet-Thruster]
-            [SpawnGroups:AS2-Pallet-Welder]
-            [SpawnGroups:AS2-Pallet-Grinder]
-            [UseRelativeSpawnPosition:false]
-            [MinDistance:30]
-            [MaxDistance:50]
-            [IgnoreSafetyChecks:false]
-        </Description>
-    </EntityComponent>
-
 </EntityComponents>
 </Definitions>	
