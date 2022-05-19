@@ -15,7 +15,7 @@
 
         [ForceStaticGrid:true]
 
-        [FactionOwner:Nobody]
+        [FactionOwner:SPRT]
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
         [ThreatScoreMinimum:0]
