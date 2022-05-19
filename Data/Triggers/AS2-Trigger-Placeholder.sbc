@@ -33,6 +33,9 @@
             [Spawner:AS2-Spawn-Pallets]
             [Spawner:AS2-Spawn-Pallets]
             [Spawner:AS2-Spawn-Pallets]
+
+            [UseChatBroadcast:true]
+            [ChatData:AS2-Chat]
         </Description>
     </EntityComponent>
 
@@ -90,14 +93,14 @@
             [Chance:100]
             [MaxChats:1]
             [BroadcastRandomly:false]
-            [IgnoreAntennaRequirement:true]
+            [IgnoreAntennaRequirement:false]
             [IgnoredAntennaRangeOverride:10000]
             [Author:System]
-            [Color:Blue]    
-            [ChatMessages:Weak signal detected {GPS}]
+            [Color:Green]    
+            [ChatMessages:Signal detected {GPS}]
             [ChatAudio:GreetingSoundId-A]
             [BroadcastChatType:Chat]
-            [GPSLabel:Weak signal]
+            [GPSLabel:{GridName} Weak Signal]
         </Description>
     </EntityComponent>
 
