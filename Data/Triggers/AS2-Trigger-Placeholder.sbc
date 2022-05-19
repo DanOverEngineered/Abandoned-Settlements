@@ -78,5 +78,28 @@
         </Description>
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-Chat</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Chat]
+            [UseChat:true]
+            [StartsReady:true]
+            [Chance:100]
+            [MaxChats:1]
+            [BroadcastRandomly:false]
+            [IgnoreAntennaRequirement:true]
+            [IgnoredAntennaRangeOverride:10000]
+            [Author:System]
+            [Color:Blue]    
+            [ChatMessages:Weak signal detected {GPS}]
+            [ChatAudio:GreetingSoundId-A]
+            [BroadcastChatType:Chat]
+            [GPSLabel:Weak signal]
+        </Description>
+    </EntityComponent>
+
 </EntityComponents>
 </Definitions>	

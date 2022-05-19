@@ -108,7 +108,8 @@
 					<Behaviour>AS2-Behaviour-Placeholder</Behaviour>
 				</Prefab>
 			</Prefabs>
-		</SpawnGroup>	
+		</SpawnGroup>
+			
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> 
