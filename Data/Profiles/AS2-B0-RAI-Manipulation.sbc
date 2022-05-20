@@ -14,6 +14,12 @@
         [ClearGridInventories:true]
         [ShiftBlockColorsHue:true]
         [RandomHueShift:true]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+        [LootProfiles:AS2-B0-Loot-Freight]
+        [LootProfiles:AS2-B0-Loot-Corpses]
+        [LootProfiles:AS2-B0-Loot-Lockers]
       </Description>
     </EntityComponent>
   </EntityComponents>

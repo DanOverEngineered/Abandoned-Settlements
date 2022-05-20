@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B0-Loot-Corpses</SubtypeId>
+      </Id>
+      <Description>
+        [MES Loot]
+
+        [ContainerBlockTypes:MyObjectBuilder_CubeBlock/DeadBody01]
+        [ContainerBlockTypes:MyObjectBuilder_CubeBlock/DeadBody02]
+        [ContainerBlockTypes:MyObjectBuilder_CubeBlock/DeadBody03]
+        [ContainerBlockTypes:MyObjectBuilder_CubeBlock/DeadBody04]
+        [ContainerBlockTypes:MyObjectBuilder_CubeBlock/DeadBody05]
+        [ContainerBlockTypes:MyObjectBuilder_CubeBlock/DeadBody06]
+
+        [ContainerTypes:AS2-B0-ContainerTypes-Consumables-1]
+        [ContainerTypes:AS2-B0-ContainerTypes-Tools-1]
+        [ContainerTypes:AS2-B0-ContainerTypes-PistolWeapons-1]
+        [ContainerTypes:AS2-B0-ContainerTypes-PistolWeapons-2]
+        [ContainerTypes:AS2-B0-ContainerTypes-RifleWeapons-1]
+        [ContainerTypes:AS2-B0-ContainerTypes-RifleWeapons-2]
+
+        [MinBlocks:1]
+        [MaxBlocks:10]
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>
