@@ -107,7 +107,7 @@
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
-			<Frequency>60</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="AS2-LootCrate-Single">
 					<Position>
@@ -137,7 +137,7 @@
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
-			<Frequency>10</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="AS2-LootCrate-Large">
 					<Position>
@@ -167,7 +167,7 @@
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
-			<Frequency>30</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="AS2-LootCrate-Double">
 					<Position>
