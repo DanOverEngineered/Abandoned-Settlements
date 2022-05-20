@@ -54,7 +54,7 @@
 				<Prefab SubtypeId="AS2-Salvage-2">
 					<Position>
 						<X>0.0</X>
-						<Y>0.5</Y>
+						<Y>0.25</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
@@ -85,7 +85,7 @@
 				<Prefab SubtypeId="AS2-Salvage-3">
 					<Position>
 						<X>0.0</X>
-						<Y>0.5</Y>
+						<Y>0.75</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
@@ -116,7 +116,7 @@
 				<Prefab SubtypeId="AS2-Salvage-4">
 					<Position>
 						<X>0.0</X>
-						<Y>0.5</Y>
+						<Y>0.65</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
@@ -178,7 +178,7 @@
 				<Prefab SubtypeId="AS2-Salvage-8">
 					<Position>
 						<X>0.0</X>
-						<Y>0.5</Y>
+						<Y>1.0</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>

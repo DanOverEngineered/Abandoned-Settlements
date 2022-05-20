@@ -46,6 +46,7 @@
             [SpawnGroups:AS2-LootCrate-Single]
             [SpawnGroups:AS2-LootCrate-Double]
             [SpawnGroups:AS2-LootCrate-Large]
+            [SpawnGroups:AS2-Shelter-1]
             [UseRelativeSpawnPosition:false]
             [MinDistance:10]
             [MaxDistance:20]
@@ -77,7 +78,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
             <TypeId>Inventory</TypeId>
-            <SubtypeId>AS2-B0-Salvage-Medium</SubtypeId>
+            <SubtypeId>AS2-B0-Spawn-Salvage-Medium</SubtypeId>
         </Id>
         <Description>
             [RivalAI Spawn]
