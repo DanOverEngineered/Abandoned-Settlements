@@ -27,6 +27,9 @@
             [SpawnEncounter:true]
             [Spawner:AS2-B0-Spawn-Cargo]
             [Spawner:AS2-B0-Spawn-Cargo]
+            [Spawner:AS2-B0-Spawn-Salvage-Small]
+            [Spawner:AS2-B0-Spawn-Salvage-Small]
+            [Spawner:AS2-B0-Spawn-Salvage-Medium]
         </Description>
     </EntityComponent>
 
@@ -46,6 +49,47 @@
             [UseRelativeSpawnPosition:false]
             [MinDistance:10]
             [MaxDistance:20]
+            [IgnoreSafetyChecks:false]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B0-Spawn-Salvage-Small</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Spawn]
+            [UseSpawn:true]
+            [StartsReady:true]
+            [MaxSpawns:-1]
+            [SpawnGroups:AS2-Salvage-1]
+            [SpawnGroups:AS2-Salvage-2]
+            [SpawnGroups:AS2-Salvage-3]
+            [SpawnGroups:AS2-Salvage-9]
+            [UseRelativeSpawnPosition:false]
+            [MinDistance:15]
+            [MaxDistance:25]
+            [IgnoreSafetyChecks:false]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B0-Salvage-Medium</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Spawn]
+            [UseSpawn:true]
+            [StartsReady:true]
+            [MaxSpawns:-1]
+            [SpawnGroups:AS2-Salvage-4]
+            [SpawnGroups:AS2-Salvage-7]
+            [SpawnGroups:AS2-Salvage-8]
+            [UseRelativeSpawnPosition:false]
+            [MinDistance:20]
+            [MaxDistance:25]
             [IgnoreSafetyChecks:false]
         </Description>
     </EntityComponent>
