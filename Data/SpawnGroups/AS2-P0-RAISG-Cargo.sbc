@@ -8,12 +8,8 @@
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [FactionOwner:Nobody]
-                [RivalAiAtmosphericSpawn:true]
-                [ReplenishSystems:false]
-                [ForceStaticGrid:true]			
-                [IgnoreShieldProviderMod:true]
-                [ClearAuthorship:true]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -38,12 +34,8 @@
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [FactionOwner:Nobody]
-                [RivalAiAtmosphericSpawn:true]
-                [ReplenishSystems:false]
-                [ForceStaticGrid:true]			
-                [IgnoreShieldProviderMod:true]
-                [ClearAuthorship:true]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -68,12 +60,8 @@
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [FactionOwner:Nobody]
-                [RivalAiAtmosphericSpawn:true]
-                [ReplenishSystems:false]
-                [ForceStaticGrid:true]			
-                [IgnoreShieldProviderMod:true]
-                [ClearAuthorship:true]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -91,19 +79,15 @@
 			</Prefabs>
 		</SpawnGroup>
 
-			<SpawnGroup>
+		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
 				<SubtypeId>AS2-LootCrate-Single</SubtypeId>
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [FactionOwner:Nobody]
-                [RivalAiAtmosphericSpawn:true]
-                [ReplenishSystems:false]
-                [ForceStaticGrid:true]			
-                [IgnoreShieldProviderMod:true]
-                [ClearAuthorship:true]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -121,19 +105,15 @@
 			</Prefabs>
 		</SpawnGroup>
 
-			<SpawnGroup>
+		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
 				<SubtypeId>AS2-LootCrate-Large</SubtypeId>
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [FactionOwner:Nobody]
-                [RivalAiAtmosphericSpawn:true]
-                [ReplenishSystems:false]
-                [ForceStaticGrid:true]			
-                [IgnoreShieldProviderMod:true]
-                [ClearAuthorship:true]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -151,19 +131,15 @@
 			</Prefabs>
 		</SpawnGroup>
 
-			<SpawnGroup>
+		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
 				<SubtypeId>AS2-LootCrate-Double</SubtypeId>
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [FactionOwner:Nobody]
-                [RivalAiAtmosphericSpawn:true]
-                [ReplenishSystems:false]
-                [ForceStaticGrid:true]			
-                [IgnoreShieldProviderMod:true]
-                [ClearAuthorship:true]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>

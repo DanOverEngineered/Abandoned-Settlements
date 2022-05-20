@@ -8,13 +8,8 @@
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [FactionOwner:Nobody]
-                [RivalAiAtmosphericSpawn:true]
-                [ReplenishSystems:false]
-                [ForceStaticGrid:true]			
-                [IgnoreShieldProviderMod:true]
-                [IgnoreCleanupRules:true]
-                [ClearAuthorship:true]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -39,13 +34,8 @@
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [FactionOwner:Nobody]
-                [RivalAiAtmosphericSpawn:true]
-                [ReplenishSystems:false]
-                [ForceStaticGrid:true]			
-                [IgnoreShieldProviderMod:true]
-                [IgnoreCleanupRules:true]
-                [ClearAuthorship:true]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -70,13 +60,8 @@
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [FactionOwner:Nobody]
-                [RivalAiAtmosphericSpawn:true]
-                [ReplenishSystems:false]
-                [ForceStaticGrid:true]			
-                [IgnoreShieldProviderMod:true]
-                [IgnoreCleanupRules:true]
-                [ClearAuthorship:true]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -101,12 +86,8 @@
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [FactionOwner:Nobody]
-                [RivalAiAtmosphericSpawn:true]
-                [ReplenishSystems:false]
-                [ForceStaticGrid:true]			
-                [IgnoreShieldProviderMod:true]
-                [ClearAuthorship:true]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -131,12 +112,8 @@
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [FactionOwner:Nobody]
-                [RivalAiAtmosphericSpawn:true]
-                [ReplenishSystems:false]
-                [ForceStaticGrid:true]			
-                [IgnoreShieldProviderMod:true]
-                [ClearAuthorship:true]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>

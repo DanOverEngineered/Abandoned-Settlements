@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B0-RAI-Manipulation</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:100]
+        [ClearAuthorship:true]
+        [ClearGridInventories:true]
+        [ShiftBlockColorsHue:true]
+        [RandomHueShift:true]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>
