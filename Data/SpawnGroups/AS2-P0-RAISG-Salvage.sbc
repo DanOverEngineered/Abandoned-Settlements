@@ -10,6 +10,7 @@
                 [Modular Encounters SpawnGroup]
                 [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
 				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -36,6 +37,7 @@
                 [Modular Encounters SpawnGroup]
                 [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
 				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -62,6 +64,7 @@
                 [Modular Encounters SpawnGroup]
                 [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
 				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -88,6 +91,7 @@
                 [Modular Encounters SpawnGroup]
                 [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
 				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -114,6 +118,7 @@
                 [Modular Encounters SpawnGroup]
                 [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
 				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -140,6 +145,7 @@
                 [Modular Encounters SpawnGroup]
                 [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
 				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -166,6 +172,7 @@
                 [Modular Encounters SpawnGroup]
                 [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
 				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
@@ -192,6 +199,7 @@
                 [Modular Encounters SpawnGroup]
                 [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
 				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>
