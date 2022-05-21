@@ -96,7 +96,7 @@
 				<Prefab SubtypeId="AS2-LootCrate-Single">
 					<Position>
 						<X>0.0</X>
-						<Y>-0.15</Y>
+						<Y>-0.25</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
@@ -108,7 +108,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>AS2-LootCrate-Large</SubtypeId>
+				<SubtypeId>AS2-LootCrate-Dead</SubtypeId>
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
@@ -119,10 +119,10 @@
 			<IsPirate>true</IsPirate>
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="AS2-LootCrate-Large">
+				<Prefab SubtypeId="AS2-LootCrate-Dead">
 					<Position>
 						<X>0.0</X>
-						<Y>0.15</Y>
+						<Y>0.17</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
@@ -148,7 +148,7 @@
 				<Prefab SubtypeId="AS2-LootCrate-Double">
 					<Position>
 						<X>0.0</X>
-						<Y>-0.15</Y>
+						<Y>-0.25</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>

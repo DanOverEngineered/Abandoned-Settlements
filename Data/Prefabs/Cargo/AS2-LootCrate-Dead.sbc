@@ -2,13 +2,13 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Prefabs>
     <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
-      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="AS2-LootCrate-Large" />
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="AS2-LootCrate-Dead" />
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>132892731725201417</EntityId>
+          <EntityId>138126788346818767</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
-          <Name>132892731725201417</Name>
+          <Name>138126788346818767</Name>
           <PositionAndOrientation>
             <Position x="0" y="0" z="0" />
             <Forward x="-0.08916449" y="0.010302363" z="-0.995963633" />
@@ -25,7 +25,7 @@
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
               <SubtypeName>LargeBlockRemoteControl</SubtypeName>
-              <EntityId>128245409183468796</EntityId>
+              <EntityId>91532962477459333</EntityId>
               <IntegrityPercent>1.52590219E-05</IntegrityPercent>
               <BuildPercent>1.52590219E-05</BuildPercent>
               <ColorMaskHSV x="0" y="-0.23" z="0.08" />
@@ -73,7 +73,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
               <SubtypeName>LargeBlockRemoteControl</SubtypeName>
-              <EntityId>113743219790565566</EntityId>
+              <EntityId>101090875253780186</EntityId>
               <Min x="-1" y="0" z="0" />
               <IntegrityPercent>1.52590219E-05</IntegrityPercent>
               <BuildPercent>1.52590219E-05</BuildPercent>
@@ -121,11 +121,11 @@
               <WaitForFreeWay>false</WaitForFreeWay>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>Freight3</SubtypeName>
-              <EntityId>119826854734201140</EntityId>
+              <SubtypeName>Freight1</SubtypeName>
+              <EntityId>94305933631095077</EntityId>
               <Min x="0" y="1" z="0" />
               <BlockOrientation Forward="Right" Up="Up" />
-              <ColorMaskHSV x="0" y="-0.23" z="0.08" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
               <ComponentContainer>
                 <Components>
@@ -134,7 +134,7 @@
                     <Component xsi:type="MyObjectBuilder_Inventory">
                       <Items />
                       <nextItemId>0</nextItemId>
-                      <Volume>3</Volume>
+                      <Volume>1</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
                       <Size xsi:nil="true" />
@@ -147,7 +147,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>DeadBody05</SubtypeName>
-              <EntityId>92000260626631709</EntityId>
+              <EntityId>99127541195633579</EntityId>
               <Min x="-1" y="1" z="0" />
               <ColorMaskHSV x="0" y="-0.23" z="0.08" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
@@ -169,36 +169,9 @@
                 </Components>
               </ComponentContainer>
             </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
-              <EntityId>74429300621494177</EntityId>
-              <Min x="-1" y="0" z="1" />
-              <IntegrityPercent>1.52590219E-05</IntegrityPercent>
-              <BuildPercent>1.52590219E-05</BuildPercent>
-              <ColorMaskHSV x="0" y="-0.23" z="0.08" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
-              <EntityId>79990626327305780</EntityId>
-              <Min x="0" y="0" z="1" />
-              <IntegrityPercent>1.52590219E-05</IntegrityPercent>
-              <BuildPercent>1.52590219E-05</BuildPercent>
-              <ColorMaskHSV x="0" y="-0.23" z="0.08" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>LargeBlockCylindricalColumn</SubtypeName>
-              <EntityId>112063484502388395</EntityId>
-              <Min x="-1" y="1" z="1" />
-              <IntegrityPercent>1.52590219E-05</IntegrityPercent>
-              <BuildPercent>1.52590219E-05</BuildPercent>
-              <ColorMaskHSV x="0" y="-0.23" z="0.08" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
           <IsStatic>true</IsStatic>
-          <DisplayName>AS2-LootCrate-Large</DisplayName>
+          <DisplayName>AS2-LootCrate-Dead</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <CreatePhysics>false</CreatePhysics>
           <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>

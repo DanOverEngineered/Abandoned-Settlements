@@ -18,7 +18,7 @@
 
 			</Description>
 			<IsPirate>true</IsPirate> 
-			<Frequency>60</Frequency>
+			<Frequency>50</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="AS2-RespawnPod-Wreckage">
 					<Position>
@@ -27,7 +27,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
-					<Behaviour>AS2-B0-Behaviour</Behaviour>
+					<Behaviour>AS2-B0-Behaviour-Survivor</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>	
@@ -55,7 +55,7 @@
 
 			</Description>
 			<IsPirate>true</IsPirate> 
-			<Frequency>40</Frequency>
+			<Frequency>50</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="AS2-SARRover">
 					<Position>
@@ -64,7 +64,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
-					<Behaviour>AS2-B0-Behaviour</Behaviour>
+					<Behaviour>AS2-B0-Behaviour-Settler</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>	

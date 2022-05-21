@@ -16,7 +16,6 @@
         [ContainerBlockTypes:MyObjectBuilder_CubeBlock/Freight3]
 
         [ContainerTypes:AS2-B0-ContainerTypes-Consumables-1]
-        [ContainerTypes:AS2-B0-ContainerTypes-Tools-1]
 
         [MinBlocks:1]
         [MaxBlocks:10]
