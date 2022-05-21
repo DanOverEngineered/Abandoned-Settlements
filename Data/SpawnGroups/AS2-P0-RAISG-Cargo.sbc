@@ -122,7 +122,7 @@
 				<Prefab SubtypeId="AS2-LootCrate-Dead">
 					<Position>
 						<X>0.0</X>
-						<Y>0.17</Y>
+						<Y>0.2</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>

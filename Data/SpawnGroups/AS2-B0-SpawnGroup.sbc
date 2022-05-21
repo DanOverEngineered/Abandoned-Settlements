@@ -35,6 +35,73 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-SpacePod-T0</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B0-SpawnCondition]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:false]
+                [IgnoreCleanupRules:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>50</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-SpacePod">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B0-Behaviour-Survivor</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-MoonDropPod-T0</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B0-SpawnCondition]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:false]
+                [IgnoreCleanupRules:true]
+
+				[ClearAuthorship:true]
+				[ClearGridInventories:true]
+				[ShiftBlockColorsHue:true]
+				[RandomHueShift:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>50</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-MoonDropPod">
+					<Position>
+						<X>0.0</X>
+						<Y>1.75</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B0-Behaviour-Survivor</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
 				<SubtypeId>AS2-SARSpawner-T0</SubtypeId>
 			</Id>
 			<Description>
