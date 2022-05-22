@@ -10,6 +10,20 @@
 				<Item AmountMin="1" AmountMax="1">
 					<Frequency>1.0</Frequency>
 					<Id>
+						<TypeId>OxygenContainerObject</TypeId>
+						<SubtypeId>OxygenBottle</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>GasContainerObject</TypeId>
+						<SubtypeId>HydrogenBottle</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1.0</Frequency>
+					<Id>
 						<TypeId>PhysicalGunObject</TypeId>
 						<SubtypeId>Welder2Item</SubtypeId>
 					</Id>

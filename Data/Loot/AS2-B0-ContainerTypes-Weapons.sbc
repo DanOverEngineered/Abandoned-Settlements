@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/601/XMLSchema-instance" xmlns:xsd="http://www.w3.org/601/XMLSchema">
 	<ContainerTypes>
 	
 		<ContainerType CountMin="2" CountMax="2">
@@ -15,7 +15,7 @@
 						<SubtypeId>SemiAutoPistolItem</SubtypeId>
 					</Id>
 				</Item>
-				<Item AmountMin="1" AmountMax="20">
+				<Item AmountMin="1" AmountMax="6">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>AmmoMagazine</TypeId>
@@ -38,7 +38,7 @@
 						<SubtypeId>FullAutoPistolItem</SubtypeId>
 					</Id>
 				</Item>
-				<Item AmountMin="1" AmountMax="20">
+				<Item AmountMin="1" AmountMax="6">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>AmmoMagazine</TypeId>
@@ -61,11 +61,11 @@
 						<SubtypeId>AutomaticRifleItem</SubtypeId>
 					</Id>
 				</Item>
-				<Item AmountMin="1" AmountMax="20">
+				<Item AmountMin="1" AmountMax="6">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>AmmoMagazine</TypeId>
-						<SubtypeId>AutomaticRifleGun_Mag_20rd</SubtypeId>
+						<SubtypeId>AutomaticRifleGun_Mag_6rd</SubtypeId>
 					</Id>
 				</Item>
 			</Items>
@@ -84,7 +84,7 @@
 						<SubtypeId>RapidFireAutomaticRifleItem</SubtypeId>
 					</Id>
 				</Item>
-				<Item AmountMin="1" AmountMax="20">
+				<Item AmountMin="1" AmountMax="6">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>AmmoMagazine</TypeId>

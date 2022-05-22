@@ -142,8 +142,10 @@
             [UseSpawn:true]
             [StartsReady:true]
             [MaxSpawns:-1]
+            
             [SpawnGroups:AS2-Shelter-1]
             [SpawnGroups:AS2-Shelter-2]
+            [SpawnGroups:AS2-Shelter-3]
             [SpawnGroups:AS2-Basic-Production]
 
             [UseRelativeSpawnPosition:false]
