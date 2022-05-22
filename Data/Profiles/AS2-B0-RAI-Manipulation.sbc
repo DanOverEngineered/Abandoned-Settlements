@@ -20,6 +20,7 @@
         [LootProfiles:AS2-B0-Loot-Freight]
         [LootProfiles:AS2-B0-Loot-Corpses]
         [LootProfiles:AS2-B0-Loot-Lockers]
+        [LootProfiles:AS2-B0-Loot-Cargo-Small]
       </Description>
     </EntityComponent>
   </EntityComponents>
