@@ -60,6 +60,7 @@
             [SpawnEncounter:true]
             [Spawner:AS2-B0-Spawn-Cargo]
             [Spawner:AS2-B0-Spawn-Cargo]
+            [Spawner:AS2-B0-Spawn-Cargo-Tools]
             [Spawner:AS2-B0-Spawn-Salvage-Small]
             [Spawner:AS2-B0-Spawn-Salvage-Small]
             [Spawner:AS2-B0-Spawn-Salvage-Medium]
@@ -99,6 +100,8 @@
             [SpawnEncounter:true]
             [Spawner:AS2-B0-Spawn-Salvage-Small]
             [Spawner:AS2-B0-Spawn-Dwelling]
+            [Spawner:AS2-B0-Spawn-Cargo-Tools]
+            [Spawner:AS2-B0-Spawn-Cargo-Loose]
             
             [UseChatBroadcast:true]
             [ChatData:AS2-B0-Notify]
@@ -142,6 +145,25 @@
             [UseRelativeSpawnPosition:false]
             [MinDistance:15]
             [MaxDistance:25]
+            [IgnoreSafetyChecks:false]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B0-Spawn-Cargo-Tools</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Spawn]
+            [UseSpawn:true]
+            [StartsReady:true]
+            [MaxSpawns:-1]
+            [SpawnGroups:AS2-LootCrate-Tools]
+
+            [UseRelativeSpawnPosition:false]
+            [MinDistance:10]
+            [MaxDistance:15]
             [IgnoreSafetyChecks:false]
         </Description>
     </EntityComponent>

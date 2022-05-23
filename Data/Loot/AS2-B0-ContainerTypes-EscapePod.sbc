@@ -106,21 +106,21 @@
         <ContainerType CountMin="2" CountMax="2">
 			<Id>
 				<TypeId>ContainerTypeDefinition</TypeId>
-				<SubtypeId>AS2-B0-EscapePod-Armory</SubtypeId>
+				<SubtypeId>AS2-B0-Basic-Tools</SubtypeId>
 			</Id>
             <Items>
                 <Item AmountMin="1" AmountMax="1">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>PhysicalGunObject</TypeId>
-						<SubtypeId>AngleGrinder2Item</SubtypeId>
+						<SubtypeId>AngleGrinderItem</SubtypeId>
 					</Id>
 				</Item>
                 <Item AmountMin="1" AmountMax="1">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>PhysicalGunObject</TypeId>
-						<SubtypeId>Welder2Item</SubtypeId>
+						<SubtypeId>WelderItem</SubtypeId>
 					</Id>
 				</Item>
 

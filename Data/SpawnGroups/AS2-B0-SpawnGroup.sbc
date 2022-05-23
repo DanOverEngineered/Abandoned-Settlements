@@ -59,7 +59,7 @@
             	[ContainerTypeAssignSubtypeId:AS2-B0-EscapePod]
 
 				[ContainerTypeAssignBlockName:Armory]
-            	[ContainerTypeAssignSubtypeId:AS2-B0-EscapePod-Armory]
+            	[ContainerTypeAssignSubtypeId:AS2-B0-Basic-Tools]
 			</Description>
 			<IsPirate>true</IsPirate> 
 			<Frequency>50</Frequency>
