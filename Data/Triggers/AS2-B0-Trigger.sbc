@@ -50,6 +50,7 @@
             [Spawner:AS2-B0-Spawn-Survival]
             
             [UseChatBroadcast:true]
+            [ChatData:AS2-B0-Notify]
             [ChatData:AS2-B0-Chat]
         </Description>
     </EntityComponent>
@@ -66,6 +67,7 @@
             [Spawner:AS2-B0-Spawn-Dwelling]
             
             [UseChatBroadcast:true]
+            [ChatData:AS2-B0-Notify]
             [ChatData:AS2-B0-Chat]
         </Description>
     </EntityComponent>
@@ -178,10 +180,11 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
             <TypeId>Inventory</TypeId>
-            <SubtypeId>AS2-B0-Chat</SubtypeId>
+            <SubtypeId>AS2-B0-Notify</SubtypeId>
         </Id>
         <Description>
             [RivalAI Chat]
+            
             [UseChat:true]
             [StartsReady:true]
             [Chance:100]
@@ -191,10 +194,38 @@
             [IgnoredAntennaRangeOverride:10000]
             [Author:System]
             [Color:Green]    
-            [ChatMessages:Signal detected {GPS}]
-            [ChatAudio:GreetingSoundId-A]
+            
+            [ChatMessages:Signal Detected]
+            [ChatAudio:None]
+            [BroadcastChatType:Notify]
+            
+            [GPSLabel:{GridName}]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B0-Chat</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Chat]
+            
+            [UseChat:true]
+            [StartsReady:true]
+            [Chance:100]
+            [MaxChats:1]
+            [BroadcastRandomly:false]
+            [IgnoreAntennaRequirement:true]
+            [IgnoredAntennaRangeOverride:10000]
+            [Author:System]
+            [Color:Green]    
+            
+            [ChatMessages:{GPS}]
+            [ChatAudio:ArcHudGPSNotification3]
             [BroadcastChatType:Chat]
-            [GPSLabel:Weak Signal]
+            
+            [GPSLabel:{GridName}]
         </Description>
     </EntityComponent>
 </EntityComponents>

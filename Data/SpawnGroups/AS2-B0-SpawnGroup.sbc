@@ -16,6 +16,9 @@
                 [ReplenishSystems:false]
                 [IgnoreCleanupRules:true]
 
+				[UseRandomNameGenerator:true]
+                [RandomGridNamePattern:Drop Pod-RandomNumberRandomNumberRandomNumber]
+
 			</Description>
 			<IsPirate>true</IsPirate> 
 			<Frequency>50</Frequency>
@@ -47,6 +50,8 @@
                 [ReplenishSystems:false]
                 [IgnoreCleanupRules:true]
 
+				[UseRandomNameGenerator:true]
+                [RandomGridNamePattern:Escape Pod-RandomNumberRandomNumberRandomNumber]
 			</Description>
 			<IsPirate>true</IsPirate> 
 			<Frequency>50</Frequency>
@@ -82,6 +87,10 @@
 				[ClearGridInventories:true]
 				[ShiftBlockColorsHue:true]
 				[RandomHueShift:true]
+
+				[UseRandomNameGenerator:true]
+                [RandomGridNamePattern:Rover-RandomNumberRandomNumberRandomNumber]
+				[ReplaceAntennaNameWithRandomizedName:Antenna]
 
 			</Description>
 			<IsPirate>true</IsPirate> 
