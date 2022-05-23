@@ -80,7 +80,8 @@
             [RivalAI Action]
             [SpawnEncounter:true]
             [Spawner:AS2-B0-Spawn-Wreckage]
-            [Spawner:AS2-B0-Spawn-Wreckage]
+            [Spawner:AS2-B0-Spawn-Cargo-Loose]
+            [Spawner:AS2-B0-Spawn-Cargo-Loose]
             
             [UseChatBroadcast:true]
             [ChatData:AS2-B0-Notify]
@@ -118,6 +119,25 @@
             [SpawnGroups:AS2-LootCrate-Single]
             [SpawnGroups:AS2-LootCrate-Double]
             [SpawnGroups:AS2-LootCrate-Dead]
+
+            [UseRelativeSpawnPosition:false]
+            [MinDistance:15]
+            [MaxDistance:25]
+            [IgnoreSafetyChecks:false]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B0-Spawn-Cargo-Loose</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Spawn]
+            [UseSpawn:true]
+            [StartsReady:true]
+            [MaxSpawns:-1]
+            [SpawnGroups:AS2-LootCrate-Loose]
 
             [UseRelativeSpawnPosition:false]
             [MinDistance:15]

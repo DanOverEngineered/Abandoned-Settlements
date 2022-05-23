@@ -53,6 +53,13 @@
 				[UseRandomNameGenerator:true]
                 [RandomGridNamePattern:Escape Pod-0RandomNumber]
 				[ReplaceAntennaNameWithRandomizedName:Antenna]
+
+				[UseContainerTypeAssignment:true]
+				[ContainerTypeAssignBlockName:Emergency supply container]
+            	[ContainerTypeAssignSubtypeId:AS2-B0-EscapePod]
+
+				[ContainerTypeAssignBlockName:Armory]
+            	[ContainerTypeAssignSubtypeId:AS2-B0-EscapePod-Armory]
 			</Description>
 			<IsPirate>true</IsPirate> 
 			<Frequency>50</Frequency>
