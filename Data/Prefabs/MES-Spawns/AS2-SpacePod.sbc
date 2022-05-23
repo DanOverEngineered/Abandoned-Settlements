@@ -6,26 +6,43 @@
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>132622463931089889</EntityId>
+          <EntityId>89752207734826480</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
-          <Name>132622463931089889</Name>
+          <Name>89752207734826480</Name>
           <PositionAndOrientation>
             <Position x="0" y="0" z="0" />
-            <Forward x="-0.685245335" y="0.335634053" z="0.646365762" />
-            <Up x="-0.618766248" y="0.199809954" z="-0.759739637" />
+            <Forward x="0.5954206" y="0.498378456" z="-0.630153358" />
+            <Up x="0.556451559" y="-0.8215765" z="-0.123990916" />
             <Orientation>
-              <X>-0.5153666</X>
-              <Y>0.746712863</Y>
-              <Z>-0.3667319</Z>
-              <W>0.205730066</W>
+              <X>-0.391123265</X>
+              <Y>-0.178734258</Y>
+              <Z>0.870523334</Z>
+              <W>-0.2393028</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
+          <ComponentContainer>
+            <Components>
+              <ComponentData>
+                <TypeId>MyModStorageComponent</TypeId>
+                <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+                  <Storage>
+                    <dictionary>
+                      <item>
+                        <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                        <Value>CAAQABiAgBAiD0FTMi1TcGFjZVBvZC1UMCgBMP///////////wE6DEFTMi1TcGFjZVBvZEIOTUVTLVByZWZhYi0xLTFKHEFTMi1CMC1CZWhhdmlvdXItTm9TdXJ2aXZvcnNVAAB6RFobCZ1wmhhPUO5AIWyuum+0XvhAOTuT/+8UBv1AYhsJnXCaGE9Q7kAhbK66b7Re+EA5O5P/7xQG/UBqCgiw+IuW88sBEARyBFNMVkd4AYABAYgBAZABAJkBAAAAAAAAAACoAQGwAQC6ARsJdjkshK8N478h9osqrG7l3785CodpVzcq5D/CARsJFi4JA2CL4j8hCagmI3i30T85QufyvjmH6D/KAQoI8JOblvPLARAE0gFLCAAQABgBIAAoADABOABAAEgAUABYAGAAaAFwAHgBgAEAiAEAkAEAmAEAoAEAqAEAsAEAuAEAwAEAyAEA0AEA2AEA4AEA6AEA8AEA2gFLCAAQABgAIAAoADABOABAAEgAUABYAGAAaAFwAHgAgAEAiAEAkAEAmAEAoAEBqAEBsAEBuAEBwAEByAEB0AEA2AEA4AEB6AEA8AEA4gETMjA4MTAxMDEwMzQwNDk1NjAtMeoBDkVzY2FwZSBQb2QtOTY0gAKAgBCKAgA=</Value>
+                      </item>
+                    </dictionary>
+                  </Storage>
+                </Component>
+              </ComponentData>
+            </Components>
+          </ComponentContainer>
           <GridSizeEnum>Large</GridSizeEnum>
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>LargeBlockBatteryBlock</SubtypeName>
-              <EntityId>99527074029267163</EntityId>
+              <EntityId>77381086193138472</EntityId>
               <Min x="0" y="-1" z="1" />
               <IntegrityPercent>0.525</IntegrityPercent>
               <BuildPercent>0.525</BuildPercent>
@@ -40,7 +57,7 @@
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>2.981655</CurrentStoredPower>
+              <CurrentStoredPower>2.97851944</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -56,7 +73,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>LargeBlockInteriorWall</SubtypeName>
-              <EntityId>101302583607254337</EntityId>
+              <EntityId>132646336635624192</EntityId>
               <Min x="0" y="-1" z="2" />
               <IntegrityPercent>0.0714284256</IntegrityPercent>
               <BuildPercent>0.0714284256</BuildPercent>
@@ -74,7 +91,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
               <SubtypeName>PassengerSeatLarge</SubtypeName>
-              <EntityId>134650000522807296</EntityId>
+              <EntityId>91594667528788284</EntityId>
               <Min x="0" y="0" z="1" />
               <IntegrityPercent>0.13333334</IntegrityPercent>
               <BuildPercent>0.13333334</BuildPercent>
@@ -139,13 +156,14 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
               <SubtypeName>LargeShipMergeBlock</SubtypeName>
-              <EntityId>76660794452989930</EntityId>
+              <EntityId>115916479707195100</EntityId>
               <Min x="0" y="-1" z="0" />
               <IntegrityPercent>0.350000143</IntegrityPercent>
               <BuildPercent>0.350000143</BuildPercent>
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0" y="-0.96" z="-0.5" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
               <CustomName>Merge Block</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -163,7 +181,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenGenerator">
               <SubtypeName />
-              <EntityId>140000485319152137</EntityId>
+              <EntityId>110989565239219720</EntityId>
               <Min x="-1" y="0" z="0" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
@@ -225,13 +243,14 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
               <SubtypeName>LargeBlockGyro</SubtypeName>
-              <EntityId>86794952710580355</EntityId>
+              <EntityId>75724431599526481</EntityId>
               <Min x="0" y="-1" z="3" />
               <IntegrityPercent>0.025</IntegrityPercent>
               <BuildPercent>0.025</BuildPercent>
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0" y="-0.96" z="-0.5" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
               <CustomName>Gyroscope</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -257,7 +276,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>LargeBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>78403976841916700</EntityId>
+              <EntityId>110576224653201293</EntityId>
               <Min x="-1" y="0" z="-1" />
               <IntegrityPercent>0.225</IntegrityPercent>
               <BuildPercent>0.225</BuildPercent>
@@ -293,7 +312,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
               <SubtypeName>ConveyorTubeCurved</SubtypeName>
-              <EntityId>116041385614390665</EntityId>
+              <EntityId>93307142475270901</EntityId>
               <Min x="-1" y="1" z="1" />
               <IntegrityPercent>0.5714286</IntegrityPercent>
               <BuildPercent>0.5714286</BuildPercent>
@@ -303,7 +322,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SurvivalKit">
               <SubtypeName>SurvivalKitLarge</SubtypeName>
-              <EntityId>86776836036813644</EntityId>
+              <EntityId>116229809270861248</EntityId>
               <Min x="-1" y="0" z="2" />
               <BlockOrientation Forward="Left" Up="Up" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
@@ -484,7 +503,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightSlideDoor">
               <SubtypeName>LargeBlockSlideDoor</SubtypeName>
-              <EntityId>92933755274403607</EntityId>
+              <EntityId>80253465297925135</EntityId>
               <Min x="0" y="0" z="-1" />
               <ColorMaskHSV x="0" y="-0.96" z="-0.5" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
@@ -509,7 +528,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
               <SubtypeName>LargeBlockSmallContainer</SubtypeName>
-              <EntityId>133607939884750498</EntityId>
+              <EntityId>126396294523969688</EntityId>
               <Min x="0" y="1" z="1" />
               <ColorMaskHSV x="0" y="-0.8" z="0" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
@@ -547,12 +566,13 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ButtonPanel">
               <SubtypeName>ButtonPanelLarge</SubtypeName>
-              <EntityId>73588764870596475</EntityId>
+              <EntityId>94996780859726669</EntityId>
               <IntegrityPercent>0.3</IntegrityPercent>
               <BuildPercent>0.3</BuildPercent>
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0" y="-0.96" z="-0.5" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
               <CustomName>Button Panel</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -569,7 +589,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>TriggerNow</Action>
-                      <BlockEntityId>137533127750301132</BlockEntityId>
+                      <BlockEntityId>92533937785937814</BlockEntityId>
                     </Data>
                   </Slot>
                 </Slots>
@@ -601,13 +621,14 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Parachute">
               <SubtypeName>LgParachute</SubtypeName>
-              <EntityId>124420486159205820</EntityId>
+              <EntityId>119218696265605683</EntityId>
               <Min x="0" y="1" z="0" />
               <IntegrityPercent>0.6666665</IntegrityPercent>
               <BuildPercent>0.6666665</BuildPercent>
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0" y="-1" z="1" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
               <ComponentContainer>
                 <Components>
                   <ComponentData>
@@ -646,7 +667,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Passage">
               <SubtypeName />
-              <EntityId>85840261948455915</EntityId>
+              <EntityId>102648719684561069</EntityId>
               <Min x="0" y="1" z="2" />
               <IntegrityPercent>0.375</IntegrityPercent>
               <BuildPercent>0.375</BuildPercent>
@@ -663,7 +684,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
               <SubtypeName>LargeBlockLockerRoom</SubtypeName>
-              <EntityId>73948447922337545</EntityId>
+              <EntityId>133696195674486507</EntityId>
               <Min x="0" y="0" z="3" />
               <BlockOrientation Forward="Backward" Up="Up" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
@@ -701,7 +722,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
               <SubtypeName>LargeBlockCockpitSeat</SubtypeName>
-              <EntityId>137537647731181338</EntityId>
+              <EntityId>122953682234130530</EntityId>
               <Min x="0" y="1" z="3" />
               <IntegrityPercent>0.25</IntegrityPercent>
               <BuildPercent>0.25</BuildPercent>
@@ -722,6 +743,7 @@
                   </PhysicalContent>
                 </Items>
               </ConstructionStockpile>
+              <ShareMode>Faction</ShareMode>
               <ComponentContainer>
                 <Components>
                   <ComponentData>
@@ -755,7 +777,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>TriggerNow</Action>
-                      <BlockEntityId>137533127750301132</BlockEntityId>
+                      <BlockEntityId>92533937785937814</BlockEntityId>
                     </Data>
                   </Slot>
                 </Slots>
@@ -765,7 +787,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>TriggerNow</Action>
-                      <BlockEntityId>137533127750301132</BlockEntityId>
+                      <BlockEntityId>92533937785937814</BlockEntityId>
                     </Data>
                   </Slot>
                 </SlotsGamepad>
@@ -785,12 +807,12 @@
               </OnLockedToolbar>
               <PilotRelativeWorld>
                 <Position x="1.5068374872207642" y="-2.4294712543487549" z="-4.8805031776428223" />
-                <Forward x="-0.26720342" y="0.1316015" z="0.954611659" />
-                <Up x="-0.0817084759" y="0.983969152" z="-0.158519536" />
+                <Forward x="-0.26720342" y="0.131601483" z="0.954611659" />
+                <Up x="-0.08170848" y="0.983969152" z="-0.158519521" />
                 <Orientation>
-                  <X>-0.05116807</X>
+                  <X>-0.051168073</X>
                   <Y>0.9872627</Y>
-                  <Z>-0.07346602</Z>
+                  <Z>-0.07346601</Z>
                   <W>0.131517783</W>
                 </Orientation>
               </PilotRelativeWorld>
@@ -1120,7 +1142,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_PistonTop">
               <SubtypeName>LargePistonTop</SubtypeName>
-              <EntityId>123841699883003565</EntityId>
+              <EntityId>102167224422852759</EntityId>
               <Min x="0" y="0" z="4" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
@@ -1129,14 +1151,37 @@
               <YieldLastComponent>true</YieldLastComponent>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
-              <SubtypeName>LargeBlockRemoteControl</SubtypeName>
-              <EntityId>143152644508234397</EntityId>
+              <SubtypeName>RivalAIRemoteControlLarge</SubtypeName>
+              <EntityId>97909370099342451</EntityId>
               <Min x="1" y="1" z="1" />
-              <IntegrityPercent>0.399999768</IntegrityPercent>
-              <BuildPercent>0.399999768</BuildPercent>
               <BlockOrientation Forward="Backward" Up="Left" />
               <ColorMaskHSV x="0" y="-0.96" z="-0.5" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyModStorageComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+                      <Storage>
+                        <dictionary>
+                          <item>
+                            <Key>74de02b3-27f9-4960-b1c4-27351f2b06d1</Key>
+                            <Value>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+
+            [UsePlayerDistanceTimer:false]
+            
+            [Triggers:AS2-B0-Trigger-NoSurvivors]
+        </Value>
+                          </item>
+                        </dictionary>
+                      </Storage>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -1177,6 +1222,29 @@
               <WaypointThresholdDistance>0</WaypointThresholdDistance>
               <IsMainRemoteControl>false</IsMainRemoteControl>
               <WaitForFreeWay>false</WaitForFreeWay>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>LargeBlockRadioAntenna</SubtypeName>
+              <EntityId>118218113301918386</EntityId>
+              <Min x="1" y="-5" z="1" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0.211111113" y="-0.46" z="-0.24" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Escape Pod-964</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
+              <Enabled>true</Enabled>
+              <BroadcastRadius>5000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
+              <EnableBroadcasting>true</EnableBroadcasting>
+              <AttachedPB>0</AttachedPB>
+              <IgnoreAllied>false</IgnoreAllied>
+              <IgnoreOther>true</IgnoreOther>
+              <HudText />
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
           <IsStatic>true</IsStatic>
@@ -1229,9 +1297,10 @@
           <CreatePhysics>false</CreatePhysics>
           <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
           <IsRespawnGrid>false</IsRespawnGrid>
-          <LocalCoordSys>0</LocalCoordSys>
+          <LocalCoordSys>17</LocalCoordSys>
           <TargetingTargets />
           <IsPowered>false</IsPowered>
+          <GridPresenceTier>Tier1</GridPresenceTier>
         </CubeGrid>
       </CubeGrids>
       <EnvironmentType>None</EnvironmentType>

@@ -51,7 +51,8 @@
                 [IgnoreCleanupRules:true]
 
 				[UseRandomNameGenerator:true]
-                [RandomGridNamePattern:Escape Pod-RandomNumberRandomNumberRandomNumber]
+                [RandomGridNamePattern:Escape Pod-0RandomNumber]
+				[ReplaceAntennaNameWithRandomizedName:Antenna]
 			</Description>
 			<IsPirate>true</IsPirate> 
 			<Frequency>50</Frequency>
@@ -59,11 +60,11 @@
 				<Prefab SubtypeId="AS2-SpacePod">
 					<Position>
 						<X>0.0</X>
-						<Y>0.0</Y>
+						<Y>4.75</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
-					<Behaviour>AS2-B0-Behaviour-Survivor</Behaviour>
+					<Behaviour>AS2-B0-Behaviour-NoSurvivors</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>	

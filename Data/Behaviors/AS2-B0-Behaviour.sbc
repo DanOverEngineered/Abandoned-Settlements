@@ -17,6 +17,23 @@
         </Description>
     </EntityComponent>
 
+    <!-- survivor type encounter, just no survivors -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B0-Behaviour-NoSurvivors</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+
+            [UsePlayerDistanceTimer:false]
+            
+            [Triggers:AS2-B0-Trigger-NoSurvivors]
+        </Description>
+    </EntityComponent>
+
+
     <!-- settler type encounter -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
