@@ -1619,7 +1619,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
-              <Enabled>true</Enabled>
+              <Enabled>false</Enabled>
               <Radius>3</Radius>
               <ReflectorRadius>120</ReflectorRadius>
               <Falloff>1</Falloff>
@@ -1640,7 +1640,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>2</NumberInGrid>
-              <Enabled>true</Enabled>
+              <Enabled>false</Enabled>
               <Radius>3</Radius>
               <ReflectorRadius>120</ReflectorRadius>
               <Falloff>1</Falloff>
