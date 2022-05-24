@@ -18,8 +18,9 @@
         [FactionOwner:SPRT]
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:5]
-        [ThreatScoreMaximum:15]
+        [ThreatScoreMinimum:0]
+        [ThreatScoreMaximum:50]
+
 
       </Description>
 
