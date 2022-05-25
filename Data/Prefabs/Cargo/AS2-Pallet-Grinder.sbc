@@ -6,18 +6,18 @@
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>75897004940384574</EntityId>
+          <EntityId>127866128168588092</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
-          <Name>75897004940384574</Name>
+          <Name>127866128168588092</Name>
           <PositionAndOrientation>
             <Position x="0" y="0" z="0" />
-            <Forward x="-0.892879844" y="0.45005548" z="-0.0146791041" />
-            <Up x="0.00691977143" y="0.0463087559" z="0.998903155" />
+            <Forward x="-0.8928999" y="0.450060427" z="-0.013245672" />
+            <Up x="0.008177787" y="0.04562366" z="0.998925269" />
             <Orientation>
-              <X>0.589333057</X>
-              <Y>0.381244034</Y>
-              <Z>0.359905779</Z>
-              <W>0.6146604</W>
+              <X>0.589769363</X>
+              <Y>0.381509155</Y>
+              <Z>0.359666854</Z>
+              <W>0.614217043</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -25,76 +25,76 @@
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>97171390515599034</EntityId>
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <EntityId>107627008616394041</EntityId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>76135068513283976</EntityId>
+              <EntityId>118418776754746654</EntityId>
               <Min x="0" y="1" z="0" />
               <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlockRound</SubtypeName>
-              <EntityId>104904001544520832</EntityId>
+              <EntityId>113916860635005872</EntityId>
               <Min x="0" y="2" z="0" />
               <BlockOrientation Forward="Up" Up="Backward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>106190752196859017</EntityId>
+              <EntityId>106814802220465230</EntityId>
               <Min x="0" y="-1" z="0" />
               <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>114310314884469145</EntityId>
+              <EntityId>123372890895049032</EntityId>
               <Min x="0" y="-2" z="0" />
               <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>122200974154165162</EntityId>
+              <EntityId>92578576035876556</EntityId>
               <Min x="0" y="-3" z="0" />
               <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>139005821563624907</EntityId>
+              <EntityId>119004755400585838</EntityId>
               <Min x="0" y="-4" z="0" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>126708921667477473</EntityId>
+              <EntityId>113247792648064728</EntityId>
               <Min x="0" y="-5" z="0" />
               <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlockRound</SubtypeName>
-              <EntityId>107485651286842294</EntityId>
+              <EntityId>97685010499912057</EntityId>
               <Min x="0" y="-6" z="0" />
               <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>72617272157983086</EntityId>
+              <EntityId>110657357292238093</EntityId>
               <Min x="0" y="-1" z="1" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
@@ -102,93 +102,93 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>91357601088167521</EntityId>
+              <EntityId>126010902556742516</EntityId>
               <Min x="0" y="0" z="2" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>120415488765317412</EntityId>
+              <EntityId>133210143415284667</EntityId>
               <Min x="0" y="1" z="2" />
               <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlockRound</SubtypeName>
-              <EntityId>81155772641273512</EntityId>
+              <EntityId>110172355606137724</EntityId>
               <Min x="0" y="2" z="2" />
               <BlockOrientation Forward="Up" Up="Backward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>73101379496418912</EntityId>
+              <EntityId>89206239812114839</EntityId>
               <Min x="0" y="-1" z="2" />
               <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>72817106280216798</EntityId>
+              <EntityId>100211270824819717</EntityId>
               <Min x="0" y="-2" z="2" />
               <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>82398010469492502</EntityId>
+              <EntityId>105531455859539074</EntityId>
               <Min x="0" y="-3" z="2" />
               <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>118845368414701349</EntityId>
+              <EntityId>88120537586186779</EntityId>
               <Min x="0" y="-4" z="2" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>103026540076299582</EntityId>
+              <EntityId>136097477982180620</EntityId>
               <Min x="0" y="-5" z="2" />
               <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlockRound</SubtypeName>
-              <EntityId>124959933625232334</EntityId>
+              <EntityId>132620077196904951</EntityId>
               <Min x="0" y="-6" z="2" />
               <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>99167247602326628</EntityId>
+              <EntityId>78455956890266982</EntityId>
               <Min x="0" y="-5" z="1" />
               <BlockOrientation Forward="Backward" Up="Down" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>119454406211590521</EntityId>
+              <EntityId>111956327854502755</EntityId>
               <Min x="0" y="1" z="1" />
               <BlockOrientation Forward="Backward" Up="Down" />
-              <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallGridBeamBlock</SubtypeName>
-              <EntityId>75821232263223250</EntityId>
+              <EntityId>134261434805974466</EntityId>
               <Min x="0" y="-3" z="1" />
               <BlockOrientation Forward="Backward" Up="Down" />
               <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
@@ -196,7 +196,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
               <SubtypeName>SmallBlockRemoteControl</SubtypeName>
-              <EntityId>88487425046859064</EntityId>
+              <EntityId>111050142950642776</EntityId>
               <Min x="0" y="-2" z="1" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.333333343" y="-0.8" z="-0.34" />
@@ -245,7 +245,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorSorter">
               <SubtypeName>MediumBlockConveyorSorter</SubtypeName>
-              <EntityId>142021205195200843</EntityId>
+              <EntityId>127307074015447010</EntityId>
               <Min x="1" y="0" z="0" />
               <IntegrityPercent>0.75</IntegrityPercent>
               <BuildPercent>0.75</BuildPercent>
@@ -302,12 +302,12 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipGrinder">
               <SubtypeName>SmallShipGrinder</SubtypeName>
-              <EntityId>92365497536482325</EntityId>
+              <EntityId>80787046263835198</EntityId>
               <Min x="1" y="-6" z="0" />
               <IntegrityPercent>0.7777777</IntegrityPercent>
               <BuildPercent>0.7777777</BuildPercent>
               <BlockOrientation Forward="Down" Up="Right" />
-              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.35" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
               <ConstructionStockpile>
                 <Items xsi:type="MyObjectBuilder_StockpileItem">

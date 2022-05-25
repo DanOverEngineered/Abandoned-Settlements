@@ -2,10 +2,11 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 <EntityComponents>
 
+    <!-- Claim type encounter -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
             <TypeId>Inventory</TypeId>
-            <SubtypeId>AS2-B1-Trigger</SubtypeId>
+            <SubtypeId>AS2-B0-Trigger-Claim</SubtypeId>
         </Id>
         <Description>
             [RivalAI Trigger]
@@ -13,26 +14,129 @@
             [Type:Timer]
             [StartsReady:true]
             [MaxActions:1]
-            [Actions:AS2-B1-Action]
+            [Actions:AS2-B0-Action-Claim]
         </Description>
     </EntityComponent>
 
+    <!-- Maintenance type encounter -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
             <TypeId>Inventory</TypeId>
-            <SubtypeId>AS2-B1-Action</SubtypeId>
+            <SubtypeId>AS2-B0-Trigger-Maintenance</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Trigger]
+            [UseTrigger:true]
+            [Type:Timer]
+            [StartsReady:true]
+            [MaxActions:1]
+            [Actions:AS2-B0-Action-Maintenance]
+        </Description>
+    </EntityComponent>
+
+    
+    <!-- Security type encounter -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B0-Trigger-Security</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Trigger]
+            [UseTrigger:true]
+            [Type:Timer]
+            [StartsReady:true]
+            [MaxActions:1]
+            [Actions:AS2-B0-Action-Security]
+        </Description>
+    </EntityComponent>
+
+    <!-- Surveyor type encounter -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B0-Trigger-Surveyor</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Trigger]
+            [UseTrigger:true]
+            [Type:Timer]
+            [StartsReady:true]
+            [MaxActions:1]
+            [Actions:AS2-B0-Action-Surveyor]
+        </Description>
+    </EntityComponent>
+
+    <!-- Claim type encounter -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Action-Claim</SubtypeId>
         </Id>
         <Description>
             [RivalAI Action]
             [SpawnEncounter:true]
+            [Spawner:AS2-B1-Spawn-Dwelling]
+            [Spawner:AS2-B1-Spawn-Dwelling]
+            [Spawner:AS2-B1-Spawn-Cargo]
+            [Spawner:AS2-B1-Spawn-Pallets]
+            [Spawner:AS2-B1-Spawn-Infrastructure]
+            [Spawner:AS2-B1-Spawn-Defensive]
+            [Spawner:AS2-B1-Spawn-Defensive]
+        </Description>
+    </EntityComponent>
+
+    <!-- Maintenance type encounter -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Action-Maintenance</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Action]
+            [SpawnEncounter:true]
+            [Spawner:AS2-B1-Spawn-Dwelling]
+            [Spawner:AS2-B1-Spawn-Pallets]
+            [Spawner:AS2-B1-Spawn-Cargo]
+            [Spawner:AS2-B1-Spawn-Infrastructure]
+            [Spawner:AS2-B1-Spawn-Infrastructure]
+            [Spawner:AS2-B1-Spawn-Defensive]
+        </Description>
+    </EntityComponent>
+
+    <!-- Security type encounter -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Action-Security</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Action]
+            [SpawnEncounter:true]
+            [Spawner:AS2-B1-Spawn-Dwelling]
             [Spawner:AS2-B1-Spawn-Cargo]
             [Spawner:AS2-B1-Spawn-Cargo]
+            [Spawner:AS2-B1-Spawn-Infrastructure]
+            [Spawner:AS2-B1-Spawn-Defensive]
+            [Spawner:AS2-B1-Spawn-Defensive]
+        </Description>
+    </EntityComponent>
+    
+    <!-- Surveyor type encounter -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Action-Surveyor</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Action]
+            [SpawnEncounter:true]
+            [Spawner:AS2-B1-Spawn-Dwelling]
             [Spawner:AS2-B1-Spawn-Cargo]
             [Spawner:AS2-B1-Spawn-Cargo]
             [Spawner:AS2-B1-Spawn-Pallets]
-            [Spawner:AS2-B1-Spawn-Pallets]
-            [Spawner:AS2-B1-Spawn-Pallets]
-            [Spawner:AS2-B1-Spawn-Pallets]
+            [Spawner:AS2-B1-Spawn-Infrastructure]
+            [Spawner:AS2-B1-Spawn-Defensive]
         </Description>
     </EntityComponent>
 
@@ -46,9 +150,11 @@
             [UseSpawn:true]
             [StartsReady:true]
             [MaxSpawns:-1]
-            [SpawnGroups:AS2-Cargo-1]
-            [SpawnGroups:AS2-Cargo-2]
-            [SpawnGroups:AS2-Cargo-3]
+            [SpawnGroups:AS2-Container-Cargo]
+            [SpawnGroups:AS2-Container-DoubleFreight]
+            [SpawnGroups:AS2-Container-Drill]
+            [SpawnGroups:AS2-Container-Equipment]
+            [SpawnGroups:AS2-Container-SingleFreight]
             [UseRelativeSpawnPosition:false]
             [MinDistance:40]
             [MaxDistance:100]
@@ -72,6 +178,62 @@
             [SpawnGroups:AS2-Pallet-Welder]
             [SpawnGroups:AS2-Pallet-Grinder]
             [UseRelativeSpawnPosition:false]
+            [MinDistance:30]
+            [MaxDistance:50]
+            [IgnoreSafetyChecks:false]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Spawn-Dwelling</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Spawn]
+            [UseSpawn:true]
+            [StartsReady:true]
+            [MaxSpawns:-1]
+            [SpawnGroups:AS2-Container-Dwelling]
+            [MinDistance:30]
+            [MaxDistance:50]
+            [IgnoreSafetyChecks:false]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Spawn-Infrastructure</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Spawn]
+            [UseSpawn:true]
+            [StartsReady:true]
+            [MaxSpawns:-1]
+            [SpawnGroups:AS2-Container-Assember]
+            [SpawnGroups:AS2-Container-Generator]
+            [SpawnGroups:AS2-AS2-Container-Kitchen]
+            [SpawnGroups:AS2-Container-Store]
+            [MinDistance:30]
+            [MaxDistance:50]
+            [IgnoreSafetyChecks:false]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Spawn-Defensive</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Spawn]
+            [UseSpawn:true]
+            [StartsReady:true]
+            [MaxSpawns:-1]
+            [SpawnGroups:AS2-Cannon-Wreckage]
+            [SpawnGroups:AS2-Gatling-Wreckage]
+            [SpawnGroups:AS2-InteriorTurret-Wreckage]
             [MinDistance:30]
             [MaxDistance:50]
             [IgnoreSafetyChecks:false]

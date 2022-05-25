@@ -4,7 +4,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> 
-				<SubtypeId>AS2-ClaimSpawner-T1</SubtypeId>
+				<SubtypeId>AS2-B1-ClaimSpawner</SubtypeId>
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
@@ -21,20 +21,135 @@
                 [ReplaceAntennaNameWithRandomizedName:Antenna]
 		
 				[CutVoxelsAtAirtightCells:true]
-				[CutVoxelSize:4.0]
+				[CutVoxelSize:3.0]
 
 			</Description>
 			<IsPirate>true</IsPirate> 
 			<Frequency>40</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="AS2-Claim">
+				<Prefab SubtypeId="AS2-Claim-Marker">
 					<Position>
 						<X>0.0</X>
-						<Y>1.0</Y>
+						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
-					<Behaviour>AS2-Behaviour-Placeholder</Behaviour>
+					<Behaviour>AS2-Behaviour-Claim</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B1-MaintenanceSpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B1-SpawnCondition]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:false]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:MNT-RandomLetterRandomNumberRandomNumber]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+		
+				[CutVoxelsAtAirtightCells:true]
+				[CutVoxelSize:3.0]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-MaintenanceRover">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-Behaviour-Maintenance</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B1-SecuritySpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B1-SpawnCondition]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:false]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SEC-RandomLetterRandomNumberRandomNumber]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+		
+				[CutVoxelsAtAirtightCells:true]
+				[CutVoxelSize:3.0]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-SecurityRover">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-Behaviour-Security</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B1-SurveySpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B1-SpawnCondition]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:false]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SVY-RandomLetterRandomNumberRandomNumber]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+		
+				[CutVoxelsAtAirtightCells:true]
+				[CutVoxelSize:3.0]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-SurveyRover">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-Behaviour-Surveyor</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>	
