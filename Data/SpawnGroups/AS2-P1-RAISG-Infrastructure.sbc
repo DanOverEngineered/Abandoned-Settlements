@@ -82,7 +82,6 @@
 			</Prefabs>
 		</SpawnGroup>
 
-        
         <SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
@@ -99,6 +98,87 @@
 			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="AS2-Container-Store">
+					<Position>
+						<X>0.0</X>
+						<Y>0.75</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Derelict-Workshop</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Derelict-Workshop">
+					<Position>
+						<X>0.0</X>
+						<Y>0.75</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-T1-Scrap-1</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-T1-Scrap-1">
+					<Position>
+						<X>0.0</X>
+						<Y>0.75</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-T1-Scrap-2</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-T1-Scrap-2">
 					<Position>
 						<X>0.0</X>
 						<Y>0.75</Y>

@@ -115,7 +115,6 @@
 			</Prefabs>
 		</SpawnGroup>	
 
-		
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> 

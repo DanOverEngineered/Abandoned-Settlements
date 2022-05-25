@@ -98,8 +98,7 @@
             [Spawner:AS2-B1-Spawn-Dwelling]
             [Spawner:AS2-B1-Spawn-Pallets]
             [Spawner:AS2-B1-Spawn-Cargo]
-            [Spawner:AS2-B1-Spawn-Infrastructure]
-            [Spawner:AS2-B1-Spawn-Infrastructure]
+            [Spawner:AS2-B1-Spawn-Workshop]
             [Spawner:AS2-B1-Spawn-Defensive]
         </Description>
     </EntityComponent>
@@ -114,8 +113,7 @@
             [RivalAI Action]
             [SpawnEncounter:true]
             [Spawner:AS2-B1-Spawn-Dwelling]
-            [Spawner:AS2-B1-Spawn-Cargo]
-            [Spawner:AS2-B1-Spawn-Cargo]
+            [Spawner:AS2-B1-Spawn-Scrap]
             [Spawner:AS2-B1-Spawn-Infrastructure]
             [Spawner:AS2-B1-Spawn-Defensive]
             [Spawner:AS2-B1-Spawn-Defensive]
@@ -213,7 +211,7 @@
             [MaxSpawns:-1]
             [SpawnGroups:AS2-Container-Assember]
             [SpawnGroups:AS2-Container-Generator]
-            [SpawnGroups:AS2-AS2-Container-Kitchen]
+            [SpawnGroups:AS2-Container-Kitchen]
             [SpawnGroups:AS2-Container-Store]
             [MinDistance:30]
             [MaxDistance:50]
@@ -234,6 +232,41 @@
             [SpawnGroups:AS2-Cannon-Wreckage]
             [SpawnGroups:AS2-Gatling-Wreckage]
             [SpawnGroups:AS2-InteriorTurret-Wreckage]
+            [MinDistance:30]
+            [MaxDistance:50]
+            [IgnoreSafetyChecks:false]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Spawn-Workshop</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Spawn]
+            [UseSpawn:true]
+            [StartsReady:true]
+            [MaxSpawns:-1]
+            [SpawnGroups:AS2-Derelict-Workshop]
+            [MinDistance:30]
+            [MaxDistance:50]
+            [IgnoreSafetyChecks:false]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Spawn-Scrap</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Spawn]
+            [UseSpawn:true]
+            [StartsReady:true]
+            [MaxSpawns:2]
+            [SpawnGroups:AS2-T1-Scrap-1]
+            [SpawnGroups:AS2-T1-Scrap-2]
             [MinDistance:30]
             [MaxDistance:50]
             [IgnoreSafetyChecks:false]
