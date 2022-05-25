@@ -19,7 +19,7 @@
 				<Prefab SubtypeId="AS2-Container-Assember">
 					<Position>
 						<X>0.0</X>
-						<Y>1.0</Y>
+						<Y>0.75</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
@@ -46,7 +46,7 @@
 				<Prefab SubtypeId="AS2-Container-Generator">
 					<Position>
 						<X>0.0</X>
-						<Y>1.0</Y>
+						<Y>0.5</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
@@ -73,7 +73,7 @@
 				<Prefab SubtypeId="AS2-Container-Kitchen">
 					<Position>
 						<X>0.0</X>
-						<Y>1.0</Y>
+						<Y>0.75</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
@@ -101,7 +101,7 @@
 				<Prefab SubtypeId="AS2-Container-Store">
 					<Position>
 						<X>0.0</X>
-						<Y>1.0</Y>
+						<Y>0.75</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
