@@ -10,7 +10,7 @@
         <Description>
             [RivalAI Behavior]
             [BehaviorName:Passive]
-            [Triggers:AS2-Trigger-Claim]
+            [Triggers:AS2-B1-Trigger-Claim]
         </Description>
     </EntityComponent>
 
@@ -23,7 +23,7 @@
         <Description>
             [RivalAI Behavior]
             [BehaviorName:Passive]
-            [Triggers:AS2-Trigger-Maintenance]
+            [Triggers:AS2-B1-Trigger-Maintenance]
         </Description>
     </EntityComponent>
 
@@ -36,7 +36,7 @@
         <Description>
             [RivalAI Behavior]
             [BehaviorName:Passive]
-            [Triggers:AS2-Trigger-Security]
+            [Triggers:AS2-B1-Trigger-Security]
         </Description>
     </EntityComponent>
 
@@ -49,7 +49,7 @@
         <Description>
             [RivalAI Behavior]
             [BehaviorName:Passive]
-            [Triggers:AS2-Trigger-Surveyor]
+            [Triggers:AS2-B1-Trigger-Surveyor]
         </Description>
     </EntityComponent>
 </EntityComponents>

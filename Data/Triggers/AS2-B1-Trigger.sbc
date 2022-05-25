@@ -6,7 +6,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
             <TypeId>Inventory</TypeId>
-            <SubtypeId>AS2-B0-Trigger-Claim</SubtypeId>
+            <SubtypeId>AS2-B1-Trigger-Claim</SubtypeId>
         </Id>
         <Description>
             [RivalAI Trigger]
@@ -14,7 +14,7 @@
             [Type:Timer]
             [StartsReady:true]
             [MaxActions:1]
-            [Actions:AS2-B0-Action-Claim]
+            [Actions:AS2-B1-Action-Claim]
         </Description>
     </EntityComponent>
 
@@ -22,7 +22,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
             <TypeId>Inventory</TypeId>
-            <SubtypeId>AS2-B0-Trigger-Maintenance</SubtypeId>
+            <SubtypeId>AS2-B1-Trigger-Maintenance</SubtypeId>
         </Id>
         <Description>
             [RivalAI Trigger]
@@ -30,7 +30,7 @@
             [Type:Timer]
             [StartsReady:true]
             [MaxActions:1]
-            [Actions:AS2-B0-Action-Maintenance]
+            [Actions:AS2-B1-Action-Maintenance]
         </Description>
     </EntityComponent>
 
@@ -39,7 +39,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
             <TypeId>Inventory</TypeId>
-            <SubtypeId>AS2-B0-Trigger-Security</SubtypeId>
+            <SubtypeId>AS2-B1-Trigger-Security</SubtypeId>
         </Id>
         <Description>
             [RivalAI Trigger]
@@ -47,7 +47,7 @@
             [Type:Timer]
             [StartsReady:true]
             [MaxActions:1]
-            [Actions:AS2-B0-Action-Security]
+            [Actions:AS2-B1-Action-Security]
         </Description>
     </EntityComponent>
 
@@ -55,7 +55,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
             <TypeId>Inventory</TypeId>
-            <SubtypeId>AS2-B0-Trigger-Surveyor</SubtypeId>
+            <SubtypeId>AS2-B1-Trigger-Surveyor</SubtypeId>
         </Id>
         <Description>
             [RivalAI Trigger]
@@ -63,7 +63,7 @@
             [Type:Timer]
             [StartsReady:true]
             [MaxActions:1]
-            [Actions:AS2-B0-Action-Surveyor]
+            [Actions:AS2-B1-Action-Surveyor]
         </Description>
     </EntityComponent>
 
@@ -195,8 +195,8 @@
             [StartsReady:true]
             [MaxSpawns:-1]
             [SpawnGroups:AS2-Container-Dwelling]
-            [MinDistance:30]
-            [MaxDistance:50]
+            [MinDistance:20]
+            [MaxDistance:30]
             [IgnoreSafetyChecks:false]
         </Description>
     </EntityComponent>

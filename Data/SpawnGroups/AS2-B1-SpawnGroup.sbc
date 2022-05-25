@@ -34,7 +34,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
-					<Behaviour>AS2-Behaviour-Claim</Behaviour>
+					<Behaviour>AS2-B1-Behaviour-Claim</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>	
@@ -72,7 +72,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
-					<Behaviour>AS2-Behaviour-Maintenance</Behaviour>
+					<Behaviour>AS2-B1-Behaviour-Maintenance</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>	
@@ -110,7 +110,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
-					<Behaviour>AS2-Behaviour-Security</Behaviour>
+					<Behaviour>AS2-B1-Behaviour-Security</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>	
@@ -149,7 +149,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
-					<Behaviour>AS2-Behaviour-Surveyor</Behaviour>
+					<Behaviour>AS2-B1-Behaviour-Surveyor</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>	
