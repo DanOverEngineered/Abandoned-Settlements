@@ -16,10 +16,6 @@
         [ContainerBlockTypes:MyObjectBuilder_CubeBlock/Freight3]
 
         [ContainerTypes:AS2-B0-ContainerTypes-Consumables-1]
-        [ContainerTypes:AS2-B0-ContainerTypes-PistolWeapons-1]
-        [ContainerTypes:AS2-B0-ContainerTypes-PistolWeapons-2]
-        [ContainerTypes:AS2-B0-ContainerTypes-RifleWeapons-1]
-
         [ContainerTypes:AS2-B0-ContainerTypes-Mixed-1]
         [ContainerTypes:AS2-B0-ContainerTypes-Mixed-2]
         [ContainerTypes:AS2-B0-ContainerTypes-Mixed-3]
