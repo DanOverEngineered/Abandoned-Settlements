@@ -22,7 +22,7 @@
 						<SubtypeId>Powerkit</SubtypeId>
 					</Id>
 				</Item>
-				<Item AmountMin="0" AmountMax="50">
+				<Item AmountMin="0" AmountMax="300">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>Ore</TypeId>
@@ -45,7 +45,7 @@
 						<SubtypeId>SpaceMealBar</SubtypeId>
 					</Id>
 				</Item>
-				<Item AmountMin="1" AmountMax="2">
+				<Item AmountMin="1" AmountMax="4">
 					<Frequency>1.0</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>

@@ -9,14 +9,14 @@
 			</Id>
 			<Items>
 				<Item AmountMin="1" AmountMax="1">
-					<Frequency>1.0</Frequency>
+					<Frequency>0.5</Frequency>
 					<Id>
 						<TypeId>PhysicalGunObject</TypeId>
 						<SubtypeId>SemiAutoPistolItem</SubtypeId>
 					</Id>
 				</Item>
 				<Item AmountMin="1" AmountMax="6">
-					<Frequency>1.0</Frequency>
+					<Frequency>0.5</Frequency>
 					<Id>
 						<TypeId>AmmoMagazine</TypeId>
 						<SubtypeId>SemiAutoPistolMagazine</SubtypeId>
@@ -32,14 +32,14 @@
 			</Id>
 			<Items>
 				<Item AmountMin="1" AmountMax="1">
-					<Frequency>1.0</Frequency>
+					<Frequency>0.5</Frequency>
 					<Id>
 						<TypeId>PhysicalGunObject</TypeId>
 						<SubtypeId>FullAutoPistolItem</SubtypeId>
 					</Id>
 				</Item>
 				<Item AmountMin="1" AmountMax="6">
-					<Frequency>1.0</Frequency>
+					<Frequency>0.5</Frequency>
 					<Id>
 						<TypeId>AmmoMagazine</TypeId>
 						<SubtypeId>FullAutoPistolMagazine</SubtypeId>
@@ -55,14 +55,14 @@
 			</Id>
 			<Items>
 				<Item AmountMin="1" AmountMax="1">
-					<Frequency>1.0</Frequency>
+					<Frequency>0.5</Frequency>
 					<Id>
 						<TypeId>PhysicalGunObject</TypeId>
 						<SubtypeId>AutomaticRifleItem</SubtypeId>
 					</Id>
 				</Item>
 				<Item AmountMin="1" AmountMax="6">
-					<Frequency>1.0</Frequency>
+					<Frequency>0.5</Frequency>
 					<Id>
 						<TypeId>AmmoMagazine</TypeId>
 						<SubtypeId>AutomaticRifleGun_Mag_6rd</SubtypeId>
@@ -78,14 +78,14 @@
 			</Id>
 			<Items>
 				<Item AmountMin="1" AmountMax="1">
-					<Frequency>1.0</Frequency>
+					<Frequency>0.5</Frequency>
 					<Id>
 						<TypeId>PhysicalGunObject</TypeId>
 						<SubtypeId>RapidFireAutomaticRifleItem</SubtypeId>
 					</Id>
 				</Item>
 				<Item AmountMin="1" AmountMax="6">
-					<Frequency>1.0</Frequency>
+					<Frequency>0.5</Frequency>
 					<Id>
 						<TypeId>AmmoMagazine</TypeId>
 						<SubtypeId>RapidFireAutomaticRifleGun_Mag_50rd</SubtypeId>

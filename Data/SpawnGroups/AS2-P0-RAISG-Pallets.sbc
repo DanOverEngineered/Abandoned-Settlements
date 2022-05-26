@@ -38,6 +38,10 @@
                 [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
 				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
 				[IgnoreCleanupRules:true]
+				
+				[UseContainerTypeAssignment:true]
+				[ContainerTypeAssignBlockName:Emergency supply container]
+            	[ContainerTypeAssignSubtypeId:AS2-B0-EscapePod]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 			<IsPirate>true</IsPirate>

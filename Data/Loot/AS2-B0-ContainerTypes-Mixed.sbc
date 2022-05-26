@@ -72,5 +72,21 @@
 				</Item>
 			</Items>
 		</ContainerType>
+
+		 <ContainerType CountMin="1" CountMax="1">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>AS2-B0-ContainerTypes-Mixed-4</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="10" AmountMax="30">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>PowerCell</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
 	</ContainerTypes>																									
 </Definitions>																										
