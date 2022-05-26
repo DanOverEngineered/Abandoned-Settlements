@@ -8,8 +8,8 @@
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
-                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
-				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+                [SpawnConditionsProfiles:AS2-B1-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B1-RAI-Manipulation]
                 [IgnoreCleanupRules:true]
 			</Description>
 			<Icon>Textures\GUI\Icons\Fake.dds</Icon>

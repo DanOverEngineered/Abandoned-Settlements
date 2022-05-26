@@ -48,6 +48,7 @@
                 [Modular Encounters SpawnGroup]
 
 				[SpawnConditionsProfiles:AS2-B1-SpawnCondition]
+                [ManipulationProfiles:AS2-B1-MES-Manipulation]
                 
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
@@ -83,6 +84,7 @@
                 [Modular Encounters SpawnGroup]
 
 				[SpawnConditionsProfiles:AS2-B1-SpawnCondition]
+                [ManipulationProfiles:AS2-B1-MES-Manipulation]
                 
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
@@ -118,7 +120,7 @@
                 [Modular Encounters SpawnGroup]
 
 				[SpawnConditionsProfiles:AS2-B1-SpawnCondition]
-                
+                [ManipulationProfiles:AS2-B1-MES-Manipulation]
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [ReplenishSystems:false]
