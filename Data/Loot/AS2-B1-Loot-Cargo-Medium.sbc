@@ -12,6 +12,7 @@
         [MES Loot]
 
         [ContainerBlockTypes:MyObjectBuilder_CargoContainer/SmallBlockMediumContainer]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
 
         [ContainerTypes:AS2-B1-ContainerTypes-Mixed-1]
         [ContainerTypes:AS2-B1-ContainerTypes-Mixed-2]
