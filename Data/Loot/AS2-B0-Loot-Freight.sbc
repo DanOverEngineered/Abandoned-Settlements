@@ -23,6 +23,7 @@
         [ContainerTypes:AS2-B0-ContainerTypes-Mixed-1]
         [ContainerTypes:AS2-B0-ContainerTypes-Mixed-2]
         [ContainerTypes:AS2-B0-ContainerTypes-Mixed-3]
+        [ContainerTypes:AS2-B0-ContainerTypes-Mixed-4]
 
         [MinBlocks:1]
         [MaxBlocks:10]
