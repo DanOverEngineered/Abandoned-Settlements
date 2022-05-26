@@ -19,7 +19,7 @@
 				<Prefab SubtypeId="AS2-Container-Dwelling">
 					<Position>
 						<X>0.0</X>
-						<Y>0.25</Y>
+						<Y>0.4</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>

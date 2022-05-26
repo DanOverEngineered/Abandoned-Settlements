@@ -56,7 +56,7 @@
 			</Id>
 			<Items>
 				<Item AmountMin="10" AmountMax="30">
-					<Frequency>1.0</Frequency>
+					<Frequency>2.0</Frequency>
 					<Id>
 						<TypeId>Component</TypeId>
 						<SubtypeId>Computer</SubtypeId>
