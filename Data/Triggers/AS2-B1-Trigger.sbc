@@ -85,6 +85,10 @@
             [Spawner:AS2-B1-Spawn-Refinery]
             [Spawner:AS2-B1-Spawn-Defensive]
             [Spawner:AS2-B1-Spawn-Defensive]
+
+            [UseChatBroadcast:true]
+            [ChatData:AS2-B1-Notify]
+            [ChatData:AS2-B1-Chat]
         </Description>
     </EntityComponent>
 
@@ -102,6 +106,10 @@
             [Spawner:AS2-B1-Spawn-Cargo]
             [Spawner:AS2-B1-Spawn-Workshop]
             [Spawner:AS2-B1-Spawn-Defensive]
+            
+            [UseChatBroadcast:true]
+            [ChatData:AS2-B1-Notify]
+            [ChatData:AS2-B1-Chat]
         </Description>
     </EntityComponent>
 
@@ -120,6 +128,10 @@
             [Spawner:AS2-B1-Spawn-Infrastructure]
             [Spawner:AS2-B1-Spawn-Defensive]
             [Spawner:AS2-B1-Spawn-Defensive]
+            
+            [UseChatBroadcast:true]
+            [ChatData:AS2-B1-Notify]
+            [ChatData:AS2-B1-Chat]
         </Description>
     </EntityComponent>
     
@@ -138,6 +150,10 @@
             [Spawner:AS2-B1-Spawn-Cargo]
             [Spawner:AS2-B1-Spawn-Infrastructure]
             [Spawner:AS2-B1-Spawn-Defensive]
+            
+            [UseChatBroadcast:true]
+            [ChatData:AS2-B1-Notify]
+            [ChatData:AS2-B1-Chat]
         </Description>
     </EntityComponent>
 
@@ -293,6 +309,57 @@
         </Description>
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Notify</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Chat]
+            
+            [UseChat:true]
+            [StartsReady:true]
+            [Chance:100]
+            [MaxChats:1]
+            [BroadcastRandomly:false]
+            [IgnoreAntennaRequirement:true]
+            [IgnoredAntennaRangeOverride:10000]
+            [Author:System]
+            [Color:Green]    
+            
+            [ChatMessages:Signal Detected]
+            [ChatAudio:None]
+            [BroadcastChatType:Notify]
+            
+            [GPSLabel:{GridName}]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Chat</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Chat]
+            
+            [UseChat:true]
+            [StartsReady:true]
+            [Chance:100]
+            [MaxChats:1]
+            [BroadcastRandomly:false]
+            [IgnoreAntennaRequirement:true]
+            [IgnoredAntennaRangeOverride:10000]
+            [Author:System]
+            [Color:Green]    
+            
+            [ChatMessages:{GPS}]
+            [ChatAudio:ArcHudGPSNotification3]
+            [BroadcastChatType:Chat]
+            
+            [GPSLabel:{GridName}]
+        </Description>
+    </EntityComponent>
 
 </EntityComponents>
 </Definitions>	
