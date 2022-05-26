@@ -57,9 +57,6 @@
                 [UseRandomNameGenerator:true]
                 [RandomGridNamePattern:MNT-RandomLetterRandomNumberRandomNumber]
                 [ReplaceAntennaNameWithRandomizedName:Antenna]
-		
-				[CutVoxelsAtAirtightCells:true]
-				[CutVoxelSize:3.0]
 
 			</Description>
 			<IsPirate>true</IsPirate> 
@@ -95,9 +92,6 @@
                 [UseRandomNameGenerator:true]
                 [RandomGridNamePattern:SEC-RandomLetterRandomNumberRandomNumber]
                 [ReplaceAntennaNameWithRandomizedName:Antenna]
-		
-				[CutVoxelsAtAirtightCells:true]
-				[CutVoxelSize:3.0]
 
 			</Description>
 			<IsPirate>true</IsPirate> 
@@ -134,8 +128,6 @@
                 [RandomGridNamePattern:SVY-RandomLetterRandomNumberRandomNumber]
                 [ReplaceAntennaNameWithRandomizedName:Antenna]
 		
-				[CutVoxelsAtAirtightCells:true]
-				[CutVoxelSize:3.0]
 
 			</Description>
 			<IsPirate>true</IsPirate> 
@@ -144,7 +136,7 @@
 				<Prefab SubtypeId="AS2-SurveyRover">
 					<Position>
 						<X>0.0</X>
-						<Y>0.0</Y>
+						<Y>2.25</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
