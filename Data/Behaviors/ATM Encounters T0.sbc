@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-B-ATM-Claim-T0</SubtypeId>
+      </Id>
+      <Description>
+	  [RivalAI Behavior]
+	  [BehaviorName:Passive]
+	  [Triggers:ASE-T-ATM-Claim-T0]
+	  [Triggers:ASE-T-ATM-DNSK-Populated]
+      </Description>
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-B-ATM-Mine-T0</SubtypeId>
+      </Id>
+      <Description>
+	  [RivalAI Behavior]
+	  [BehaviorName:Passive]
+	  [Triggers:ASE-T-ATM-Mine-T0]
+	  [Triggers:ASE-T-ATM-DNSK-Populated]
+      </Description>
+    </EntityComponent>
+
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-B-ATM-Supply-T0</SubtypeId>
+      </Id>
+      <Description>
+	  [RivalAI Behavior]
+	  [BehaviorName:Passive]
+	  [Triggers:ASE-T-ATM-Supply-T0]
+	  [Triggers:ASE-T-ATM-DNSK-Sparse]
+      </Description>
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-T-ATM-Claim-T0</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+	  [UseTrigger:true]
+	  [Type:Timer]
+	  [StartsReady:true]
+	  [MaxActions:1]
+	  [Actions:ASE-A-ATM-Claim-T0]
+      </Description>
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-T-ATM-Mine-T0</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+	  [UseTrigger:true]
+	  [Type:Timer]
+	  [StartsReady:true]
+	  [MaxActions:1]
+	  [Actions:ASE-A-ATM-Mine-T0]
+      </Description>
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-T-ATM-Supply-T0</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+	  [UseTrigger:true]
+	  [Type:Timer]
+	  [StartsReady:true]
+	  [MaxActions:1]
+	  [Actions:ASE-A-ATM-Supply-T0]
+      </Description>
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-A-ATM-Claim-T0</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Action]
+	  [SpawnEncounter:true]
+	  [Spawner:ASE-S-ATM-Dwelling-Neutral-T0]
+	  [Spawner:ASE-S-ATM-Dwelling-Neutral-T0]
+	  [Spawner:ASE-S-ATM-Support-T0]
+	  [Spawner:ASE-S-ATM-Support-T0]
+	  [Spawner:ASE-S-ATM-Defense-T0]
+      </Description>
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-A-ATM-Mine-T0</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Action]
+	  [SpawnEncounter:true]
+	  [Spawner:ASE-S-ATM-Dwelling-T0]
+	  [Spawner:ASE-S-ATM-Dwelling-T0]
+	  [Spawner:ASE-S-ATM-Support-T0]
+	  [Spawner:ASE-S-ATM-Support-T0]
+	  [Spawner:ASE-S-ATM-Support-T0]
+	  [Spawner:ASE-S-ATM-Defense-T0]
+      </Description>
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-A-ATM-Supply-T0</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Action]
+	  [SpawnEncounter:true]
+	  [Spawner:ASE-S-ATM-Supply-T0]
+	  [Spawner:ASE-S-ATM-Defense-T0]
+      </Description>
+    </EntityComponent>
+
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-S-ATM-Dwelling-T0</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+      [StartsReady:true]
+      [MaxSpawns:-1]
+	  [SpawnGroups:ASE-Dwelling-Neutral]
+	  [SpawnGroups:ASE-CrewHut-Neutral]
+	  [SpawnGroups:ASE-LargeDwelling-Neutral]
+	  [SpawnGroups:ASE-BunkHouse-Neutral]
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:30]
+      [MaxDistance:200]
+      [IgnoreSafetyChecks:false]
+      </Description>
+    </EntityComponent>
+	
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-S-ATM-Dwelling-Neutral-T0</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+      [StartsReady:true]
+      [MaxSpawns:-1]
+	  [SpawnGroups:ASE-CrewHut-Neutral]
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:30]
+      [MaxDistance:200]
+      [IgnoreSafetyChecks:false]
+      </Description>
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-S-ATM-Support-T0</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+      [StartsReady:true]
+      [MaxSpawns:1]
+	  [SpawnGroups:ASE-FieldAssembler]
+	  [SpawnGroups:ASE-FieldRefinery]
+	  [SpawnGroups:ASE-FieldMedic]
+	  [SpawnGroups:ASE-WaterTanks]
+	  [SpawnGroups:ASE-LoadHauler]
+	  [SpawnGroups:ASE-FuelProcessor]
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:40]
+      [MaxDistance:200]
+      [IgnoreSafetyChecks:false]
+      </Description>
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-S-ATM-Defense-T0</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+      [StartsReady:true]
+      [MaxSpawns:-1]
+	  [SpawnGroups:ASE-RuinedTurret]
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:30]
+      [MaxDistance:200]
+      [IgnoreSafetyChecks:false]
+      </Description>
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>ASE-S-ATM-Supply-T0</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+      [StartsReady:true]
+      [MaxSpawns:-1]
+	  [SpawnGroups:ASE-SupplyDrop]
+      [MinDistance:30]
+      [MaxDistance:100]
+      [IgnoreSafetyChecks:false]
+      </Description>
+    </EntityComponent>
+	
+  </EntityComponents>
+</Definitions>

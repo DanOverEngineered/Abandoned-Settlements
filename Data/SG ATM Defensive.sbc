@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>ASE-RuinedTurret</SubtypeId>
+			</Id>
+			<Description>
+			[Modular Encounters SpawnGroup]
+			[FactionOwner:SPRT]
+			[RivalAiAtmosphericSpawn:true]
+			[ReplenishSystems:false]
+			[ForceStaticGrid:true]			
+			[IgnoreShieldProviderMod:true]
+			[ClearAuthorship:true]
+			[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.3</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="ASE - Ruined Turret">
+					<Position>
+						<X>0.0</X>
+						<Y>-1.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>ASE-LightTurretShort</SubtypeId>
+			</Id>
+			<Description>
+			[Modular Encounters SpawnGroup]
+			[FactionOwner:SPRT]
+			[RivalAiAtmosphericSpawn:true]
+			[ReplenishSystems:false]
+			[ForceStaticGrid:true]			
+			[IgnoreShieldProviderMod:true]
+			[ClearAuthorship:true]
+			[IgnoreCleanupRules:true]
+					
+			[ChangeTurretSettings:true]
+			[TurretRange:400]
+			[TurretIdleRotation:false]
+			[TurretTargetMeteors:false]
+			
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="ASE - Light Turret">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>ASE-LightTurretLong</SubtypeId>
+			</Id>
+			<Description>
+			[Modular Encounters SpawnGroup]
+			[FactionOwner:SPRT]
+			[RivalAiAtmosphericSpawn:true]
+			[ReplenishSystems:false]
+			[ForceStaticGrid:true]			
+			[IgnoreShieldProviderMod:true]
+			[ClearAuthorship:true]
+			[IgnoreCleanupRules:true]
+			
+			[ChangeTurretSettings:true]
+			[TurretRange:595]
+			[TurretIdleRotation:false]
+			[TurretTargetMeteors:false]
+			
+			[SpawnRandomCargo:true]
+			[UseContainerTypeAssignment:true]
+			[ContainerTypeAssignBlockName:Interior Turret]
+            [ContainerTypeAssignSubtypeId:ASE-SmallTurret]
+			
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="ASE - Light Turret">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>ASE-HeavyTurretShort</SubtypeId>
+			</Id>
+			<Description>
+			[Modular Encounters SpawnGroup]
+			[FactionOwner:SPRT]
+			[RivalAiAtmosphericSpawn:true]
+			[ReplenishSystems:false]
+			[ForceStaticGrid:true]			
+			[IgnoreShieldProviderMod:true]
+			[ClearAuthorship:true]
+			[IgnoreCleanupRules:true]
+			
+			[ChangeTurretSettings:true]
+			[TurretRange:595]
+			[TurretIdleRotation:false]
+			[TurretTargetMeteors:false]
+			
+			[SpawnRandomCargo:true]
+			[UseContainerTypeAssignment:true]
+			[ContainerTypeAssignBlockName:Gatling Turret]
+            [ContainerTypeAssignSubtypeId:ASE-LargeTurret]
+			
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="ASE - Heavy Turret">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>ASE-HeavyTurretLong</SubtypeId>
+			</Id>
+			<Description>
+			[Modular Encounters SpawnGroup]
+			[FactionOwner:SPRT]
+			[RivalAiAtmosphericSpawn:true]
+			[ReplenishSystems:false]
+			[ForceStaticGrid:true]			
+			[IgnoreShieldProviderMod:true]
+			[ClearAuthorship:true]
+			[IgnoreCleanupRules:true]
+			
+			[ChangeTurretSettings:true]
+			[TurretRange:800]
+			[TurretIdleRotation:false]
+			[TurretTargetMeteors:false]
+			
+			[SpawnRandomCargo:true]
+			[UseContainerTypeAssignment:true]
+			[ContainerTypeAssignBlockName:Gatling Turret]
+            [ContainerTypeAssignSubtypeId:ASE-LargeTurret]
+			
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="ASE - Heavy Turret">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+	</SpawnGroups>
+</Definitions>
