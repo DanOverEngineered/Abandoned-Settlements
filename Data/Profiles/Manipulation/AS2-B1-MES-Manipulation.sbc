@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B1-MES-Manipulation</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:100]
+        [ClearAuthorship:true]
+        [ClearGridInventories:true]
+        
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+        [LootProfiles:AS2-B1-Loot-Cargo-Small]
+        [LootProfiles:AS2-B1-Loot-Cargo-Medium]
+        [LootProfiles:AS2-B1-Loot-Lockers]
+        [LootProfiles:AS2-B1-Loot-Armoury]
+        [LootProfiles:AS2-B1-Loot-Cockpit]
+        [LootProfiles:AS2-B0-Loot-H2Generator]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

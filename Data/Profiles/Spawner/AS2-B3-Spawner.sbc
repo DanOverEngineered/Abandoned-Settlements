@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Spawn-Mine</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:AS2-Mine]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:7.5]
+                [MaxDistance:7.5]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+        
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Spawn-Cargo</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:AS2-Cargo-1]
+                [SpawnGroups:AS2-Cargo-2]
+                [SpawnGroups:AS2-Cargo-3]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:30]
+                [MaxDistance:50]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Spawn-Pallets</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:AS2-Pallet-LG-1]
+                [SpawnGroups:AS2-Pallet-LG-2]
+                [SpawnGroups:AS2-Pallet-LG-3]
+                [SpawnGroups:AS2-Pallet-LG-4]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:30]
+                [MaxDistance:50]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Spawn-Dwelling-Inner</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:AS2-B3-HabCluster]
+                [SpawnGroups:AS2-B3-BunkHouse]
+                [SpawnGroups:AS2-B3-CrewHut]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:60]
+                [MaxDistance:80]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+
+        
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Spawn-Dwelling-Outer</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:AS2-B3-Dwelling-1]
+                [SpawnGroups:AS2-B3-Dwelling-2]
+                [SpawnGroups:AS2-B3-Dwelling-3]
+                [SpawnGroups:AS2-B3-BunkHouse]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:120]
+                [MaxDistance:250]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Spawn-Defensive-Small</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:AS2-B3-Defensive-SG-Gatling]
+                [SpawnGroups:AS2-B3-Defensive-SG-Auto]
+                [SpawnGroups:AS2-B3-Defensive-InteriorTurret]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:90]
+                [MaxDistance:110]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Spawn-Defensive-Large</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:AS2-B3-Defensive-Gatling]
+                [SpawnGroups:AS2-B3-Defensive-Custom-Gatling]
+                [SpawnGroups:AS2-B3-Defensive-Custom-Auto]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:90]
+                [MaxDistance:110]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Spawn-Defensive-Custom</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:AS2-B3-Defensive-Custom-Gatling]
+                [SpawnGroups:AS2-B3-Defensive-Custom-Auto]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:90]
+                [MaxDistance:110]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Spawn-Infrastructure-Outer</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:AS2-SolarTower]
+                [SpawnGroups:AS2-WindTower]
+                [SpawnGroups:AS2-GasTank-Small]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:260]
+                [MaxDistance:270]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Spawn-Infrastructure-Inner</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:AS2-Field-Assembler]
+                [SpawnGroups:AS2-Field-Refinery]
+                [SpawnGroups:AS2-Water-Tanks]
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:150]
+                [MaxDistance:170]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+                
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Spawn-Cargo-DNSK</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:AS2-B3-LootCrate-DNSK]
+
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:30]
+                [MaxDistance:40]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Spawn-Guard-Bot</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [SpawnMinCooldown:1]
+                [SpawnMaxCooldown:2]
+                [MaxSpawns:-1]
+                [SpawningType:Creature]
+                [SpawnGroups:AS2-B3-Guard-Bot]
+                [SpawnGroups:AS2-B3-Boss-Bot]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Spawn-Grinder-Bot</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [SpawnMinCooldown:1]
+                [SpawnMaxCooldown:2]
+                [MaxSpawns:-1]
+                [SpawningType:Creature]
+                [SpawnGroups:AS2-B3-Grinder-Bot]
+            </Description>
+        </EntityComponent>
+    </EntityComponents>
+</Definitions>	

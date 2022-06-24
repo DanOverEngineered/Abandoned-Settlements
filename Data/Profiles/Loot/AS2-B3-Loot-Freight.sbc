@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B3-Loot-Freight</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Loot]
+
+        [ContainerBlockTypes:MyObjectBuilder_CubeBlock/Freight1]
+        [ContainerBlockTypes:MyObjectBuilder_CubeBlock/Freight2]
+        [ContainerBlockTypes:MyObjectBuilder_CubeBlock/Freight3]
+
+        [ContainerTypes:AS2-B3-ContainerTypes-Components-Basic]
+        [ContainerTypes:AS2-B3-ContainerTypes-Ingots-Basic]
+
+        [MinBlocks:3]
+        [MaxBlocks:3]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B3-Loot-Freight-Camp</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Loot]
+
+        [ContainerBlockTypes:MyObjectBuilder_CubeBlock/Freight1]
+        [ContainerBlockTypes:MyObjectBuilder_CubeBlock/Freight2]
+        [ContainerBlockTypes:MyObjectBuilder_CubeBlock/Freight3]
+
+        [ContainerTypes:AS2-B3-ContainerTypes-Consumables-1]
+
+        [MinBlocks:3]
+        [MaxBlocks:3]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

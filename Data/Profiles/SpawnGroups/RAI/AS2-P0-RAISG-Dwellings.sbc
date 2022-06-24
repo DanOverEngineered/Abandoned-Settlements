@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Shelter-1</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+                [IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Shelter-1">
+					<Position>
+						<X>0.0</X>
+						<Y>0.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Shelter-2</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+                [IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Shelter-2">
+					<Position>
+						<X>0.0</X>
+						<Y>0.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Shelter-3</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+                [IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Shelter-3">
+					<Position>
+						<X>0.0</X>
+						<Y>0.8</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Portahut-Crew</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Portahut-Crew">
+					<Position>
+						<X>0.0</X>
+						<Y>1.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Portahut-Store</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Portahut-Store">
+					<Position>
+						<X>0.0</X>
+						<Y>0.75</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+	</SpawnGroups>
+</Definitions>

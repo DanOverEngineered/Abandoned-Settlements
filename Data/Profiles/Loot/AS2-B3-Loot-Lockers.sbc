@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B3-Loot-Lockers</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Loot]
+
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockers]
+
+        [ContainerTypes:AS2-B3-ContainerTypes-Components-Basic]
+        [ContainerTypes:AS2-B3-ContainerTypes-Ingots-Basic]
+
+        [MinBlocks:3]
+        [MaxBlocks:3]
+
+      </Description>
+
+    </EntityComponent>
+	
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B3-Loot-Armoury</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Loot]
+
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockerRoom]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockerRoomCorner]
+
+        [ContainerTypes:AS2-B3-ContainerTypes-Tools-1]
+        [ContainerTypes:AS2-B3-ContainerTypes-RifleWeapons-1]
+        [ContainerTypes:AS2-B3-ContainerTypes-RifleWeapons-2]
+
+        [MinBlocks:3]
+        [MaxBlocks:3]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

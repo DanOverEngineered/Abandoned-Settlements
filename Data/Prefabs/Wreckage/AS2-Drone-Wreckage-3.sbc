@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Prefabs>
+    <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="AS2-Drone-Wreckage-3" />
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>138500493839859552</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <Name>138500493839859552</Name>
+          <PositionAndOrientation>
+            <Position x="0" y="0" z="0" />
+            <Forward x="-0.8369405" y="0.421384454" z="0.349235535" />
+            <Up x="-0.326999158" y="0.126675218" z="-0.936496" />
+            <Orientation>
+              <X>-0.442633033</X>
+              <Y>0.691877</Y>
+              <Z>-0.490651</Z>
+              <W>0.290936053</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="3" y="-1" z="5" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="3" y="-1" z="4" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="3" y="-1" z="6" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+              <Min x="3" y="-2" z="5" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+              <Min x="3" y="0" z="5" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="3" y="-1" z="3" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+              <Min x="3" y="-2" z="4" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="3" y="0" z="6" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="3" y="-2" z="6" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+              <Min x="3" y="0" z="3" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="0" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+              <Min x="3" y="-2" z="3" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="3" y="-1" z="2" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="0" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="3" y="0" z="2" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="0" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="3" y="-2" z="2" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <Skeleton>
+            <BoneInfo>
+              <BonePosition x="7" y="-2" z="7" />
+              <BoneOffset x="127" y="139" z="132" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-2" z="9" />
+              <BoneOffset x="129" y="141" z="132" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="1" z="10" />
+              <BoneOffset x="127" y="127" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-2" z="8" />
+              <BoneOffset x="128" y="130" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-2" z="11" />
+              <BoneOffset x="127" y="132" z="139" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-2" z="10" />
+              <BoneOffset x="126" y="144" z="134" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-1" z="8" />
+              <BoneOffset x="127" y="127" z="140" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="0" z="10" />
+              <BoneOffset x="121" y="104" z="104" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="0" z="11" />
+              <BoneOffset x="130" y="120" z="122" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-1" z="10" />
+              <BoneOffset x="127" y="127" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="0" z="11" />
+              <BoneOffset x="124" y="111" z="102" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="0" z="10" />
+              <BoneOffset x="134" y="111" z="123" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="0" z="9" />
+              <BoneOffset x="128" y="119" z="134" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="0" z="8" />
+              <BoneOffset x="127" y="122" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-1" z="10" />
+              <BoneOffset x="127" y="127" z="108" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="0" z="7" />
+              <BoneOffset x="128" y="112" z="136" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-3" z="10" />
+              <BoneOffset x="127" y="127" z="97" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-3" z="8" />
+              <BoneOffset x="127" y="127" z="141" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="1" z="10" />
+              <BoneOffset x="127" y="127" z="104" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-2" z="9" />
+              <BoneOffset x="141" y="148" z="109" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="1" z="8" />
+              <BoneOffset x="127" y="127" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-2" z="10" />
+              <BoneOffset x="132" y="143" z="100" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="-2" z="11" />
+              <BoneOffset x="127" y="137" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-3" z="10" />
+              <BoneOffset x="127" y="127" z="123" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="7" y="-3" z="8" />
+              <BoneOffset x="127" y="127" z="117" />
+            </BoneInfo>
+          </Skeleton>
+          <DisplayName>AS2-Drone-Wreckage-3</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <CreatePhysics>false</CreatePhysics>
+          <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+    </Prefab>
+  </Prefabs>
+</Definitions>

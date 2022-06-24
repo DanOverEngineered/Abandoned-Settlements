@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>    
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B0-Action-Settler</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B0-Spawn-Salvage-Small]
+                [Spawner:AS2-B0-Spawn-Dwelling]
+                [Spawner:AS2-B0-Spawn-Dwelling]
+                [Spawner:AS2-B0-Spawn-Cargo-Tools]
+                [Spawner:AS2-B0-Spawn-Cargo-Loose]
+                [Spawner:AS2-B0-Spawn-Cargo-Loose]
+                
+                [UseChatBroadcast:true]
+                [ChatData:AS2-B0-Notify]
+                [ChatData:AS2-B0-Chat]
+            </Description>
+        </EntityComponent>
+        
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B0-Action-Survivor</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B0-Spawn-Cargo]
+                [Spawner:AS2-B0-Spawn-Cargo]
+                [Spawner:AS2-B0-Spawn-Cargo-Tools]
+                [Spawner:AS2-B0-Spawn-Salvage-Small]
+                [Spawner:AS2-B0-Spawn-Salvage-Small]
+                [Spawner:AS2-B0-Spawn-Salvage-Medium]
+                [Spawner:AS2-B0-Spawn-Survival]
+                
+                [UseChatBroadcast:true]
+                [ChatData:AS2-B0-Notify]
+                [ChatData:AS2-B0-Chat]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B0-Action-NoSurvivors</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B0-Spawn-Wreckage]
+                [Spawner:AS2-B0-Spawn-Wreckage]
+                [Spawner:AS2-B0-Spawn-Cargo-Loose]
+                [Spawner:AS2-B0-Spawn-Cargo-Loose]
+                
+                [UseChatBroadcast:true]
+                [ChatData:AS2-B0-Notify]
+                [ChatData:AS2-B0-Chat]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B0-Action-DNSK</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B0-Spawn-Cargo-DNSK]
+            </Description>
+        </EntityComponent>
+    </EntityComponents>
+</Definitions>	        

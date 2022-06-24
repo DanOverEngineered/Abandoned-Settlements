@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ContainerTypes>
+		<ContainerType CountMin="3" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>AS2-B1-ContainerTypes-DNSK-Basic</SubtypeId>
+			</Id>
+			<Items>
+				<!--Mod support: Daily Needs Survival Kit-->
+				<Item AmountMin="1" AmountMax="2">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>EmergencyFood</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="4">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>WaterFood</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="2">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>CoffeeFood</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="2">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>HotChocolate</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+		<ContainerType CountMin="3" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>AS2-B1-ContainerTypes-DNSK-Food</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="500" AmountMax="900">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Ice</SubtypeId>
+					</Id>
+				</Item>	
+				<Item AmountMin="1" AmountMax="2">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>ProteinShake</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>SpaceMealBar</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="2">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>EmergencyFood</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+		<ContainerType CountMin="4" CountMax="6">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>AS2-B1-ContainerTypes-DNSK-Plants</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="500" AmountMax="900">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Ice</SubtypeId>
+					</Id>
+				</Item>	
+				<Item AmountMin="4" AmountMax="8">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Nutrients</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="4">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Fertilizer</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.5</Frequency>
+					<Id>
+					<TypeId>Ingot</TypeId>
+					<SubtypeId>Potatoes</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>0.5</Frequency>
+					<Id>
+					<TypeId>Ingot</TypeId>
+					<SubtypeId>Tomatoes</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+	</ContainerTypes>																									
+</Definitions>																										

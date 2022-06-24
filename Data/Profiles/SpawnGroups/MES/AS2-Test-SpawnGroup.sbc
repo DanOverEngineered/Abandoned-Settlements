@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+        <!-- Test Spawn Group -->
+		<!-- Edit AS2-Test-Spawner for rapid tests of RAI prefabs -->
+        <!-- usage: /MES.SPI.AS2-TestSG -->
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-TestSG</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:Test Spawn RandomCharRandomCharRandomChar]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+		
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Claim-Marker">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-Test-Behaviour</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+	</SpawnGroups>
+</Definitions>

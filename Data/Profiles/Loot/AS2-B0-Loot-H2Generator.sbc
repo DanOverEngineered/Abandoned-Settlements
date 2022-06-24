@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B0-Loot-H2Generator</SubtypeId>
+    </Id>
+    <Description>
+
+        [MES Loot]
+
+        [ContainerBlockTypes:MyObjectBuilder_OxygenGenerator/OxygenGeneratorSmall]
+        [ContainerBlockTypes:MyObjectBuilder_OxygenGenerator/OxygenGenerator]
+
+        [ContainerTypes:AS2-B0-ContainerTypes-H2Generator]
+
+        [MinBlocks:1]
+        [MaxBlocks:1]
+
+    </Description>
+
+    </EntityComponent>
+
+</EntityComponents>
+</Definitions>
