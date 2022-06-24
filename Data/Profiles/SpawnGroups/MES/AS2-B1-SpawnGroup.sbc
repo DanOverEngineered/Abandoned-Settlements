@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B1-ClaimSpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B1-SpawnCondition]
+                [ManipulationProfiles:AS2-B1-MES-Manipulation]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:false]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SurnamesNoun Claim]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>50</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Claim-Marker">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B1-Behaviour-Claim</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B1-MaintenanceSpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B1-SpawnCondition]
+                [ManipulationProfiles:AS2-B1-MES-Manipulation]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:false]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:MNT-RandomLetterRandomNumberRandomNumber]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-MaintenanceRover">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B1-Behaviour-Maintenance</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B1-SecuritySpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B1-SpawnCondition]
+                [ManipulationProfiles:AS2-B1-MES-Manipulation]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:false]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SEC-RandomLetterRandomNumberRandomNumber]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-SecurityRover">
+					<Position>
+						<X>0.0</X>
+						<Y>1.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B1-Behaviour-Security</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B1-SurveySpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B1-SpawnCondition]
+                [ManipulationProfiles:AS2-B1-MES-Manipulation]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:false]
+                [IgnoreCleanupRules:true]
+
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SVY-RandomLetterRandomNumberRandomNumber]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+		
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-SurveyRover">
+					<Position>
+						<X>0.0</X>
+						<Y>1.2</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B1-Behaviour-Surveyor</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+	</SpawnGroups>
+</Definitions>

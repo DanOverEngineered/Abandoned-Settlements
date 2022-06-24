@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B3-Behavior-Mine</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+            [Triggers:AS2-B3-Trigger-Mine]
+            [Triggers:AS2-B3-Trigger-DNSK]
+            [Triggers:AS2-B2-Trigger-AIEnabled]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B3-Behavior-Research</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+            [Triggers:AS2-B3-Trigger-Research]
+            [Triggers:AS2-B3-Trigger-DNSK]
+            [Triggers:AS2-B2-Trigger-AIEnabled]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B3-Behavior-Processing</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+            [Triggers:AS2-B3-Trigger-Processing]
+            [Triggers:AS2-B3-Trigger-DNSK]
+            [Triggers:AS2-B2-Trigger-AIEnabled]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B3-Behavior-Camp</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+            [Triggers:AS2-B3-Trigger-Camp]
+            [Triggers:AS2-B3-Trigger-DNSK]
+            [Triggers:AS2-B2-Trigger-AIEnabled]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B3-Behavior-Town</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+            [Triggers:AS2-B3-Trigger-Town]
+            [Triggers:AS2-B3-Trigger-DNSK]
+            [Triggers:AS2-B2-Trigger-AIEnabled]
+        </Description>
+    </EntityComponent>
+</EntityComponents>
+</Definitions>

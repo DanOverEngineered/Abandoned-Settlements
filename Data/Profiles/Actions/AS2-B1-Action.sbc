@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <!-- Claim type encounter -->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B1-Action-Claim</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B1-Spawn-Dwelling]
+                [Spawner:AS2-B1-Spawn-Dwelling]
+                [Spawner:AS2-B1-Spawn-Cargo]
+                [Spawner:AS2-B1-Spawn-Infrastructure]
+                [Spawner:AS2-B1-Spawn-Refinery]
+                [Spawner:AS2-B1-Spawn-Defensive]
+                [Spawner:AS2-B1-Spawn-Defensive]
+                [Spawner:AS2-B1-Spawn-Freight]
+                [Spawner:AS2-B1-Spawn-Freight]
+                [Spawner:AS2-B0-Spawn-Cargo-Tools]
+
+                [UseChatBroadcast:true]
+                [ChatData:AS2-B1-Notify]
+                [ChatData:AS2-B1-Chat]
+            </Description>
+        </EntityComponent>
+
+        <!-- Maintenance type encounter -->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B1-Action-Maintenance</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B1-Spawn-Dwelling]
+                [Spawner:AS2-B1-Spawn-Pallets]
+                [Spawner:AS2-B1-Spawn-Cargo]
+                [Spawner:AS2-B1-Spawn-Workshop]
+                [Spawner:AS2-B1-Spawn-Defensive]
+                [Spawner:AS2-B1-Spawn-Freight]
+                [Spawner:AS2-B1-Spawn-Freight]
+                [Spawner:AS2-B0-Spawn-Cargo-Tools]
+                
+                [UseChatBroadcast:true]
+                [ChatData:AS2-B1-Notify]
+                [ChatData:AS2-B1-Chat]
+            </Description>
+        </EntityComponent>
+
+        <!-- Security type encounter -->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B1-Action-Security</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B1-Spawn-Compound]
+                [Spawner:AS2-B1-Spawn-Scrap]
+                [Spawner:AS2-B1-Spawn-Scrap]
+                [Spawner:AS2-B1-Spawn-Defensive]
+                [Spawner:AS2-B1-Spawn-Freight]
+                [Spawner:AS2-B0-Spawn-Cargo-Tools]
+                
+                [UseChatBroadcast:true]
+                [ChatData:AS2-B1-Notify]
+                [ChatData:AS2-B1-Chat]
+            </Description>
+        </EntityComponent>
+        
+        <!-- Surveyor type encounter -->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B1-Action-Surveyor</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B1-Spawn-Dwelling]
+                [Spawner:AS2-B1-Spawn-Cargo]
+                [Spawner:AS2-B1-Spawn-Cargo]
+                [Spawner:AS2-B1-Spawn-Freight]
+                [Spawner:AS2-B1-Spawn-Freight]
+                [Spawner:AS2-B1-Spawn-Infrastructure]
+                [Spawner:AS2-B1-Spawn-Defensive]
+                [Spawner:AS2-B0-Spawn-Cargo-Tools]
+                
+                [UseChatBroadcast:true]
+                [ChatData:AS2-B1-Notify]
+                [ChatData:AS2-B1-Chat]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B1-Action-DNSK</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B1-Spawn-Cargo-DNSK]
+                [Spawner:AS2-B1-Spawn-Cargo-DNSK]
+            </Description>
+        </EntityComponent>
+    </EntityComponents>    
+</Definitions>	        

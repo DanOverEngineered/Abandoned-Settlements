@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B1-RAI-Manipulation</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:100]
+        [ClearAuthorship:true]
+        [ClearGridInventories:true]
+        
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+        [LootProfiles:AS2-B1-Loot-Freight]
+        [LootProfiles:AS2-B1-Loot-Lockers]
+        [LootProfiles:AS2-B1-Loot-Armoury]
+        [LootProfiles:AS2-B1-Loot-Cargo-Small]
+        [LootProfiles:AS2-B1-Loot-Cargo-Medium]
+        [LootProfiles:AS2-B1-Loot-Cockpit]
+        [LootProfiles:AS2-B0-Loot-H2Generator]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B1-RAI-Manipulation-Turret-Interior</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:100]
+        [ClearAuthorship:true]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+        [LootProfiles:AS2-B1-Loot-Turret-Interior]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B1-RAI-Manipulation-Turret-Gatling</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:100]
+        [ClearAuthorship:true]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B1-RAI-Manipulation-DNSK</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:100]
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+        [LootProfiles:AS2-B1-Loot-DNSK]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

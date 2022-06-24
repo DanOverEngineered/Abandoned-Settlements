@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B3-MineSpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B3-SpawnCondition]
+                [ManipulationProfiles:AS2-B3-MES-Manipulation-Mining]
+				[PlanetaryInstallationType:medium]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B3-Replenishment-Interior]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SurnamesNoun Mine]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+				[CutVoxelsAtAirtightCells:false]
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Claim-Marker">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B3-Behavior-Mine</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B3-ResearchSpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B3-SpawnCondition]
+                [ManipulationProfiles:AS2-B3-MES-Manipulation-Research]
+				[PlanetaryInstallationType:medium]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B3-Replenishment-Interior]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:Research Station RandomLetterRandomNumberRandomNumber]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>10</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Research">
+					<Position>
+						<X>0.0</X>
+						<Y>8.25</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B3-Behavior-Research</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B3-ProcessingSpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B3-SpawnCondition]
+                [ManipulationProfiles:AS2-B3-MES-Manipulation-Processing]
+				[PlanetaryInstallationType:medium]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishProfiles:AS2-B3-Replenishment-Interior]
+                [ReplenishSystems:true]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SurnamesNoun Processing]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>10</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Processing-T2">
+					<Position>
+						<X>0.0</X>
+						<Y>8.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B3-Behavior-Processing</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B3-CampSpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B3-SpawnCondition]
+                [ManipulationProfiles:AS2-B3-MES-Manipulation-Camp]
+				[PlanetaryInstallationType:small]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B3-Replenishment-Interior]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:AnimalNoun Camp]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Bar">
+					<Position>
+						<X>0.0</X>
+						<Y>7.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B3-Behavior-Camp</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B3-TownSpawner-1</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B3-SpawnCondition]
+                [ManipulationProfiles:AS2-B3-MES-Manipulation]
+				[PlanetaryInstallationType:large]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B3-Replenishment-Interior]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SurnamesNoun's Hope]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Store">
+					<Position>
+						<X>0.0</X>
+						<Y>6.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B3-Behavior-Town</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B3-TownSpawner-2</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B3-SpawnCondition]
+                [ManipulationProfiles:AS2-B3-MES-Manipulation]
+				[PlanetaryInstallationType:large]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B3-Replenishment-Interior]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SurnamesNoun's Folley]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Store">
+					<Position>
+						<X>0.0</X>
+						<Y>6.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B3-Behavior-Town</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B3-TownSpawner-3</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B3-SpawnCondition]
+                [ManipulationProfiles:AS2-B3-MES-Manipulation]
+				[PlanetaryInstallationType:large]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B3-Replenishment-Interior]
+                [IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:InsectNoun Ridge]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Store">
+					<Position>
+						<X>0.0</X>
+						<Y>6.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B3-Behavior-Town</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+	</SpawnGroups>
+</Definitions>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>    
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-Test-Action</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Action]
+            [SpawnEncounter:true]
+            [Spawner:AS2-Test-Spawn]
+            [Spawner:AS2-Test-Spawn]
+            [Spawner:AS2-Test-Spawn]
+            [Spawner:AS2-Test-Spawn]
+            [Spawner:AS2-Test-Spawn]
+            [Spawner:AS2-Test-Spawn]
+
+            [UseChatBroadcast:true]
+            [ChatData:AS2-Test-Notify]
+            [ChatData:AS2-Test-Chat]
+        </Description>
+    </EntityComponent>
+    </EntityComponents>
+</Definitions>	        

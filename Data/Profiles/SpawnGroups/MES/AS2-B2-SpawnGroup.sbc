@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B2-CampSpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B2-SpawnCondition]
+                [ManipulationProfiles:AS2-B2-MES-Manipulation-Camp]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:true]
+                [IgnoreCleanupRules:true]
+
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:AnimalNoun Camp]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+				[EnableBlocksWithName:Timer]
+				[AllowPartialNames:true]
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>60</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Bar">
+					<Position>
+						<X>0.0</X>
+						<Y>7.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B2-Behaviour-Camp</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B2-ServicesSpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B2-SpawnCondition]
+                [ManipulationProfiles:AS2-B2-MES-Manipulation-Services]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+				
+                [ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B2-Replenishment-Interior]
+
+                [IgnoreCleanupRules:true]
+
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SurnamesNoun Services]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Workshop-T2">
+					<Position>
+						<X>0.0</X>
+						<Y>8.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B2-Behaviour-Services</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>	
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> 
+				<SubtypeId>AS2-B2-ProcessingSpawner</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+
+				[SpawnConditionsProfiles:AS2-B2-SpawnCondition]
+                [ManipulationProfiles:AS2-B2-MES-Manipulation-Processing]
+                
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                
+				[ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B2-Replenishment-Interior]
+				
+				[IgnoreCleanupRules:true]
+                
+                [UseRandomNameGenerator:true]
+                [RandomGridNamePattern:SurnamesNoun Processing Company]
+                [ReplaceAntennaNameWithRandomizedName:Antenna]
+
+				[EnableBlocksWithName:Timer]
+				[AllowPartialNames:true]
+			</Description>
+			<IsPirate>true</IsPirate> 
+			<Frequency>40</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Processing-T2">
+					<Position>
+						<X>0.0</X>
+						<Y>9.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour>AS2-B2-Behaviour-Processing</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+	</SpawnGroups>
+</Definitions>

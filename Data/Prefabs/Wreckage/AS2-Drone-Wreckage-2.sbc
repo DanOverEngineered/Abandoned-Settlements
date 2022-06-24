@@ -1,0 +1,1588 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Prefabs>
+    <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="AS2-Drone-Wreckage-2" />
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>77851006510447647</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <Name>77851006510447647</Name>
+          <PositionAndOrientation>
+            <Position x="0" y="0" z="0" />
+            <Forward x="-0.763753" y="0.423639536" z="0.487043083" />
+            <Up x="0.398368239" y="0.9030257" z="-0.160771132" />
+            <Orientation>
+              <X>0.137927487</X>
+              <Y>0.851174235</Y>
+              <Z>-0.171648368</Z>
+              <W>0.476461232</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
+              <SubtypeName>SmallBlockRemoteControl</SubtypeName>
+              <EntityId>134173394862022663</EntityId>
+              <IntegrityPercent>0.7142857</IntegrityPercent>
+              <BuildPercent>0.7142857</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <CustomName>Remote Control</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <UseSingleWeaponMode>false</UseSingleWeaponMode>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <SelectedGunId xsi:nil="true" />
+              <BuildToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </BuildToolbar>
+              <OnLockedToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </OnLockedToolbar>
+              <IsTargetLockingEnabled>false</IsTargetLockingEnabled>
+              <PreviousControlledEntityId xsi:nil="true" />
+              <AutoPilotEnabled>false</AutoPilotEnabled>
+              <FlightMode>0</FlightMode>
+              <BindedCamera>96573585232413889</BindedCamera>
+              <CurrentWaypointIndex>-1</CurrentWaypointIndex>
+              <Waypoints />
+              <Direction>0</Direction>
+              <DockingModeEnabled>false</DockingModeEnabled>
+              <CollisionAvoidance>false</CollisionAvoidance>
+              <Coords />
+              <Names />
+              <WaypointThresholdDistance>0</WaypointThresholdDistance>
+              <IsMainRemoteControl>false</IsMainRemoteControl>
+              <WaitForFreeWay>false</WaitForFreeWay>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+              <SubtypeName>SmallCameraBlock</SubtypeName>
+              <EntityId>96573585232413889</EntityId>
+              <Min x="0" y="0" z="-1" />
+              <IntegrityPercent>0.50000006</IntegrityPercent>
+              <BuildPercent>0.50000006</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <CustomName>Camera</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsActive>false</IsActive>
+              <Fov>1.04719758</Fov>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_PistonTop">
+              <SubtypeName>SmallPistonTop</SubtypeName>
+              <EntityId>72330602059300018</EntityId>
+              <Min x="1" y="-1" z="1" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ParentEntityId>0</ParentEntityId>
+              <YieldLastComponent>true</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+              <EntityId>133155827984503471</EntityId>
+              <Min x="-1" y="0" z="5" />
+              <IntegrityPercent>0.4</IntegrityPercent>
+              <BuildPercent>0.4</BuildPercent>
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Ion Thruster 11</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="0" y="-1" z="5" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="0" y="1" z="0" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="-1" y="1" z="0" />
+              <IntegrityPercent>0.1</IntegrityPercent>
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="1" y="1" z="0" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="1" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="2" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.08888889" y="-0.31" z="0.04" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+              <Min x="-1" y="-1" z="0" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+              <EntityId>93249407036934065</EntityId>
+              <Min x="1" y="0" z="5" />
+              <IntegrityPercent>0.3</IntegrityPercent>
+              <BuildPercent>0.3</BuildPercent>
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Ion Thruster 10</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>76448748344894325</EntityId>
+              <Min x="0" y="-1" z="1" />
+              <IntegrityPercent>0.4375</IntegrityPercent>
+              <BuildPercent>0.4375</BuildPercent>
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <CustomName>Small Battery</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>false</Enabled>
+              <CurrentStoredPower>0.04999679</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+              <Min x="1" y="-1" z="2" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+              <Min x="-1" y="-1" z="2" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+              <Min x="-1" y="1" z="1" />
+              <IntegrityPercent>0.55</IntegrityPercent>
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0.08888889" y="-0.31" z="0.04" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="1" y="1" z="2" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.08888889" y="-0.31" z="0.04" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+              <Min x="1" y="1" z="1" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0.08888889" y="-0.31" z="0.04" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="-1" y="1" z="2" />
+              <ColorMaskHSV x="0.08888889" y="-0.31" z="0.04" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
+              <EntityId>73871185171028965</EntityId>
+              <Min x="0" y="0" z="1" />
+              <IntegrityPercent>0.75</IntegrityPercent>
+              <BuildPercent>0.75</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <CustomName>Antenna</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>1000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
+              <EnableBroadcasting>true</EnableBroadcasting>
+              <AttachedPB>0</AttachedPB>
+              <IgnoreAllied>false</IgnoreAllied>
+              <IgnoreOther>true</IgnoreOther>
+              <HudText>Escort Drone</HudText>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockCylindricalColumn</SubtypeName>
+              <EntityId>122646003407183647</EntityId>
+              <Min x="0" y="-1" z="2" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+              <EntityId>73149573942477802</EntityId>
+              <Min x="0" y="-1" z="4" />
+              <BlockOrientation Forward="Up" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Ion Thruster 7</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+              <EntityId>104911385475783472</EntityId>
+              <Min x="-1" y="-1" z="3" />
+              <IntegrityPercent>0.3</IntegrityPercent>
+              <BuildPercent>0.3</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Ion Thruster 9</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_PistonTop">
+              <SubtypeName>SmallPistonTop</SubtypeName>
+              <EntityId>72131050498475267</EntityId>
+              <Min x="-1" y="-1" z="1" />
+              <IntegrityPercent>0.2</IntegrityPercent>
+              <BuildPercent>0.2</BuildPercent>
+              <BlockOrientation Forward="Up" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ParentEntityId>0</ParentEntityId>
+              <YieldLastComponent>true</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="0" z="3" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+              <EntityId>118043662701945793</EntityId>
+              <Min x="1" y="-1" z="3" />
+              <IntegrityPercent>0.194285721</IntegrityPercent>
+              <BuildPercent>0.4</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Ion Thruster 8</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>5</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="2" y="0" z="5" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0.08888889" y="-0.31" z="0.04" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockCylindricalColumn</SubtypeName>
+              <EntityId>134734467181702703</EntityId>
+              <Min x="0" y="-1" z="3" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
+              <SubtypeName />
+              <EntityId>123177483819735192</EntityId>
+              <Min x="1" y="0" z="-1" />
+              <IntegrityPercent>0.153846234</IntegrityPercent>
+              <BuildPercent>0.153846234</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.064</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Gatling Gun 4</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsShooting>false</IsShooting>
+              <IsShootingFromTerminal>false</IsShootingFromTerminal>
+              <IsLargeTurret>false</IsLargeTurret>
+              <MinFov>0.1</MinFov>
+              <MaxFov>1.04719758</MaxFov>
+              <GunBase>
+                <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
+                <RemainingAmmosList />
+                <LastShootTime>0</LastShootTime>
+              </GunBase>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="0" y="1" z="5" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-2" y="0" z="5" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0.08888889" y="-0.31" z="0.04" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+              <EntityId>135892477984317035</EntityId>
+              <Min x="-2" y="-1" z="4" />
+              <IntegrityPercent>0.4</IntegrityPercent>
+              <BuildPercent>0.4</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Ion Thruster 13</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>6</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="1" y="-1" z="5" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-1" y="-1" z="5" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="-3" y="-1" z="5" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="-3" y="-1" z="4" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-3" y="-1" z="6" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+              <EntityId>95714184827769091</EntityId>
+              <Min x="-2" y="0" z="4" />
+              <IntegrityPercent>0.2</IntegrityPercent>
+              <BuildPercent>0.2</BuildPercent>
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Ion Thruster 15</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>9</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="1" y="1" z="4" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-1" y="1" z="4" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+              <Min x="-1" y="1" z="5" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+              <Min x="1" y="1" z="5" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+              <Min x="1" y="1" z="3" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+              <Min x="-1" y="1" z="3" />
+              <IntegrityPercent>0.1</IntegrityPercent>
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="3" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
+              <SubtypeName>SmallBlockGyro</SubtypeName>
+              <EntityId>129967065090519544</EntityId>
+              <Min x="0" y="0" z="5" />
+              <IntegrityPercent>0.5714286</IntegrityPercent>
+              <BuildPercent>0.5714286</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <CustomName>Gyroscope</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Reactor">
+              <SubtypeName>SmallBlockSmallGenerator</SubtypeName>
+              <EntityId>142752742682736614</EntityId>
+              <Min x="-1" y="-1" z="4" />
+              <IntegrityPercent>0.6</IntegrityPercent>
+              <BuildPercent>0.6</BuildPercent>
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>1</nextItemId>
+                      <Volume>0.125</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>900</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Small Reactor</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>false</Enabled>
+              <Capacity>0</Capacity>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
+              <SubtypeName>SmallBlockSmallContainer</SubtypeName>
+              <EntityId>89655801467956781</EntityId>
+              <Min x="1" y="-1" z="4" />
+              <IntegrityPercent>0.583333433</IntegrityPercent>
+              <BuildPercent>0.583333433</BuildPercent>
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.125</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Small Cargo Container</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+              <Min x="-3" y="-2" z="5" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+              <Min x="-3" y="0" z="5" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="-3" y="0" z="6" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="-3" y="-2" z="6" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfArmorBlock</SubtypeName>
+              <Min x="-3" y="-1" z="3" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+              <Min x="-3" y="0" z="3" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.8" z="0" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+              <Min x="-3" y="-2" z="3" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-3" y="-1" z="2" />
+              <IntegrityPercent>0.55</IntegrityPercent>
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.8" z="0" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="-3" y="0" z="2" />
+              <IntegrityPercent>0.1</IntegrityPercent>
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.8" z="0" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="-3" y="-2" z="2" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+              <Min x="-3" y="-2" z="4" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.43" z="0.26" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <Skeleton>
+            <BoneInfo>
+              <BonePosition x="0" y="0" z="0" />
+              <BoneOffset x="127" y="127" z="155" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="0" z="2" />
+              <BoneOffset x="159" y="95" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="2" z="8" />
+              <BoneOffset x="134" y="124" z="149" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="2" z="7" />
+              <BoneOffset x="154" y="115" z="212" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="2" z="6" />
+              <BoneOffset x="141" y="120" z="171" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="2" z="1" />
+              <BoneOffset x="154" y="115" z="182" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="2" z="0" />
+              <BoneOffset x="167" y="111" z="212" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="2" z="3" />
+              <BoneOffset x="144" y="120" z="167" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="2" z="2" />
+              <BoneOffset x="150" y="117" z="175" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="-1" z="5" />
+              <BoneOffset x="130" y="115" z="163" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="-1" z="4" />
+              <BoneOffset x="135" y="102" z="205" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="2" z="0" />
+              <BoneOffset x="140" y="122" z="154" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="2" z="1" />
+              <BoneOffset x="154" y="116" z="183" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="-1" z="6" />
+              <BoneOffset x="128" y="123" z="140" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="2" z="2" />
+              <BoneOffset x="164" y="111" z="210" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-2" z="2" />
+              <BoneOffset x="98" y="156" z="112" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="2" z="3" />
+              <BoneOffset x="139" y="122" z="155" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-2" z="3" />
+              <BoneOffset x="114" y="156" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="-1" z="4" />
+              <BoneOffset x="136" y="101" z="209" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="-1" z="5" />
+              <BoneOffset x="134" y="105" z="193" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="-1" z="6" />
+              <BoneOffset x="129" y="121" z="146" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="1" z="10" />
+              <BoneOffset x="127" y="127" z="136" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="-1" z="5" />
+              <BoneOffset x="131" y="114" z="167" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="-1" z="4" />
+              <BoneOffset x="136" y="100" z="211" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="3" z="7" />
+              <BoneOffset x="140" y="122" z="167" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="3" z="6" />
+              <BoneOffset x="152" y="117" z="203" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="3" z="3" />
+              <BoneOffset x="133" y="125" z="140" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="3" z="2" />
+              <BoneOffset x="152" y="117" z="183" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="2" z="-1" />
+              <BoneOffset x="125" y="121" z="128" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="3" z="1" />
+              <BoneOffset x="160" y="114" z="194" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="3" z="0" />
+              <BoneOffset x="141" y="122" z="156" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="1" z="10" />
+              <BoneOffset x="127" y="127" z="122" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="1" z="8" />
+              <BoneOffset x="127" y="127" z="100" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="1" z="2" />
+              <BoneOffset x="127" y="127" z="106" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="1" z="0" />
+              <BoneOffset x="127" y="127" z="98" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="1" z="0" />
+              <BoneOffset x="127" y="127" z="157" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="-1" z="0" />
+              <BoneOffset x="127" y="127" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="2" z="10" />
+              <BoneOffset x="127" y="95" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="2" z="11" />
+              <BoneOffset x="115" y="128" z="106" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="2" z="2" />
+              <BoneOffset x="124" y="103" z="101" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="2" z="3" />
+              <BoneOffset x="128" y="110" z="139" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="2" z="0" />
+              <BoneOffset x="128" y="105" z="155" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="2" z="1" />
+              <BoneOffset x="121" y="107" z="121" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="1" z="5" />
+              <BoneOffset x="128" y="123" z="140" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="1" z="4" />
+              <BoneOffset x="130" y="118" z="157" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="3" z="0" />
+              <BoneOffset x="143" y="121" z="160" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="3" z="1" />
+              <BoneOffset x="159" y="114" z="193" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="3" z="2" />
+              <BoneOffset x="160" y="114" z="198" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="3" z="3" />
+              <BoneOffset x="137" y="123" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="3" z="6" />
+              <BoneOffset x="152" y="116" z="207" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="3" z="7" />
+              <BoneOffset x="143" y="120" z="177" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="3" z="8" />
+              <BoneOffset x="132" y="125" z="141" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="-2" z="4" />
+              <BoneOffset x="130" y="114" z="164" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="-2" z="5" />
+              <BoneOffset x="130" y="115" z="162" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="2" z="1" />
+              <BoneOffset x="133" y="125" z="138" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="2" z="8" />
+              <BoneOffset x="131" y="125" z="140" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="2" z="2" />
+              <BoneOffset x="156" y="116" z="191" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="2" z="3" />
+              <BoneOffset x="136" y="123" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="-2" z="4" />
+              <BoneOffset x="131" y="113" z="169" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="2" z="0" />
+              <BoneOffset x="169" y="108" z="213" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="-2" z="5" />
+              <BoneOffset x="128" y="122" z="143" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="2" z="1" />
+              <BoneOffset x="166" y="110" z="209" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="2" z="6" />
+              <BoneOffset x="153" y="114" z="209" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="2" z="7" />
+              <BoneOffset x="144" y="119" z="182" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="0" z="6" />
+              <BoneOffset x="135" y="123" z="154" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="-2" z="3" />
+              <BoneOffset x="125" y="141" z="155" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="-2" z="2" />
+              <BoneOffset x="132" y="153" z="143" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="2" z="1" />
+              <BoneOffset x="128" y="124" z="130" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="2" z="0" />
+              <BoneOffset x="127" y="123" z="106" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="2" z="3" />
+              <BoneOffset x="128" y="123" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="2" z="2" />
+              <BoneOffset x="127" y="119" z="108" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="2" z="8" />
+              <BoneOffset x="127" y="95" z="159" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="2" z="10" />
+              <BoneOffset x="127" y="95" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="2" z="8" />
+              <BoneOffset x="159" y="95" z="159" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="-1" />
+              <BoneOffset x="109" y="129" z="105" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="2" z="10" />
+              <BoneOffset x="159" y="95" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="1" z="10" />
+              <BoneOffset x="127" y="127" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-2" z="7" />
+              <BoneOffset x="126" y="142" z="152" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="-1" />
+              <BoneOffset x="127" y="138" z="128" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-2" z="3" />
+              <BoneOffset x="127" y="147" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-2" z="2" />
+              <BoneOffset x="103" y="151" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-2" z="9" />
+              <BoneOffset x="127" y="145" z="101" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-2" z="8" />
+              <BoneOffset x="131" y="140" z="97" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-2" z="11" />
+              <BoneOffset x="125" y="139" z="128" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-2" z="10" />
+              <BoneOffset x="126" y="130" z="145" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="1" z="1" />
+              <BoneOffset x="108" y="127" z="106" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="1" z="0" />
+              <BoneOffset x="110" y="133" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="1" z="3" />
+              <BoneOffset x="116" y="127" z="150" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="0" z="4" />
+              <BoneOffset x="136" y="104" z="198" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="1" z="2" />
+              <BoneOffset x="121" y="127" z="110" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-4" y="0" z="5" />
+              <BoneOffset x="132" y="111" z="176" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="1" z="11" />
+              <BoneOffset x="119" y="127" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="1" z="10" />
+              <BoneOffset x="118" y="129" z="116" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="0" z="6" />
+              <BoneOffset x="128" y="122" z="140" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="0" z="5" />
+              <BoneOffset x="136" y="100" z="208" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="0" z="4" />
+              <BoneOffset x="137" y="99" z="214" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="1" z="10" />
+              <BoneOffset x="159" y="127" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="1" z="8" />
+              <BoneOffset x="159" y="127" z="159" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="1" z="3" />
+              <BoneOffset x="123" y="127" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="1" z="2" />
+              <BoneOffset x="119" y="127" z="143" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="1" z="1" />
+              <BoneOffset x="119" y="127" z="121" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="1" z="0" />
+              <BoneOffset x="112" y="133" z="146" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="0" z="4" />
+              <BoneOffset x="136" y="100" z="209" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-6" y="0" z="5" />
+              <BoneOffset x="133" y="108" z="185" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="-1" z="2" />
+              <BoneOffset x="159" y="127" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="-1" z="0" />
+              <BoneOffset x="118" y="122" z="136" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="1" z="7" />
+              <BoneOffset x="138" y="122" z="161" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="1" z="6" />
+              <BoneOffset x="151" y="116" z="203" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="1" z="1" />
+              <BoneOffset x="145" y="119" z="165" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="1" z="0" />
+              <BoneOffset x="152" y="116" z="154" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="1" z="3" />
+              <BoneOffset x="132" y="125" z="140" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="1" z="2" />
+              <BoneOffset x="145" y="120" z="169" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="1" z="8" />
+              <BoneOffset x="131" y="125" z="140" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="-1" z="2" />
+              <BoneOffset x="115" y="120" z="142" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="1" z="6" />
+              <BoneOffset x="150" y="117" z="200" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="1" z="7" />
+              <BoneOffset x="144" y="119" z="182" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="3" z="0" />
+              <BoneOffset x="127" y="127" z="131" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="3" z="2" />
+              <BoneOffset x="127" y="127" z="133" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="3" z="1" />
+              <BoneOffset x="147" y="119" z="170" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="1" z="-1" />
+              <BoneOffset x="115" y="123" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="0" z="10" />
+              <BoneOffset x="121" y="104" z="104" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="3" z="3" />
+              <BoneOffset x="135" y="124" z="145" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-1" z="3" />
+              <BoneOffset x="116" y="121" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="6" y="0" z="11" />
+              <BoneOffset x="130" y="120" z="122" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="3" z="2" />
+              <BoneOffset x="152" y="117" z="185" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="-1" z="2" />
+              <BoneOffset x="96" y="109" z="141" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="3" z="7" />
+              <BoneOffset x="138" y="122" z="163" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-2" y="3" z="6" />
+              <BoneOffset x="149" y="117" z="197" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="0" z="11" />
+              <BoneOffset x="126" y="121" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="5" y="0" z="10" />
+              <BoneOffset x="126" y="102" z="100" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="-2" z="5" />
+              <BoneOffset x="131" y="112" z="172" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="-2" z="4" />
+              <BoneOffset x="135" y="101" z="205" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-1" z="8" />
+              <BoneOffset x="127" y="127" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-1" z="10" />
+              <BoneOffset x="127" y="127" z="153" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="-1" z="2" />
+              <BoneOffset x="85" y="103" z="175" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="11" />
+              <BoneOffset x="122" y="125" z="137" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="10" />
+              <BoneOffset x="119" y="127" z="120" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="9" />
+              <BoneOffset x="112" y="125" z="99" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="8" />
+              <BoneOffset x="115" y="128" z="96" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="7" />
+              <BoneOffset x="124" y="127" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="0" z="1" />
+              <BoneOffset x="131" y="152" z="120" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="0" z="2" />
+              <BoneOffset x="126" y="119" z="108" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="3" />
+              <BoneOffset x="122" y="127" z="116" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="0" z="3" />
+              <BoneOffset x="117" y="133" z="145" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="-1" z="2" />
+              <BoneOffset x="127" y="127" z="122" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="1" z="-1" />
+              <BoneOffset x="109" y="131" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="0" z="9" />
+              <BoneOffset x="105" y="111" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="0" z="10" />
+              <BoneOffset x="101" y="134" z="96" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="0" z="11" />
+              <BoneOffset x="110" y="115" z="144" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="11" />
+              <BoneOffset x="126" y="122" z="114" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="10" />
+              <BoneOffset x="127" y="145" z="103" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="9" />
+              <BoneOffset x="127" y="113" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="8" />
+              <BoneOffset x="128" y="141" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="3" />
+              <BoneOffset x="129" y="138" z="157" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="2" />
+              <BoneOffset x="95" y="95" z="144" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="1" />
+              <BoneOffset x="110" y="132" z="170" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="0" />
+              <BoneOffset x="127" y="136" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="1" z="4" />
+              <BoneOffset x="132" y="114" z="168" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="0" z="7" />
+              <BoneOffset x="128" y="120" z="129" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-5" y="1" z="5" />
+              <BoneOffset x="129" y="121" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="2" />
+              <BoneOffset x="98" y="110" z="98" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="3" />
+              <BoneOffset x="124" y="126" z="128" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="0" />
+              <BoneOffset x="107" y="108" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="1" />
+              <BoneOffset x="103" y="103" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="10" />
+              <BoneOffset x="159" y="159" z="95" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="8" />
+              <BoneOffset x="159" y="159" z="159" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="2" y="0" z="9" />
+              <BoneOffset x="159" y="159" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="3" y="2" z="-1" />
+              <BoneOffset x="128" y="115" z="117" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="0" z="1" />
+              <BoneOffset x="99" y="112" z="158" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="-2" z="1" />
+              <BoneOffset x="129" y="141" z="98" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="-2" z="0" />
+              <BoneOffset x="127" y="136" z="124" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="0" z="0" />
+              <BoneOffset x="107" y="107" z="148" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="11" />
+              <BoneOffset x="121" y="127" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="-2" z="3" />
+              <BoneOffset x="126" y="132" z="107" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="10" />
+              <BoneOffset x="116" y="127" z="131" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="-2" z="2" />
+              <BoneOffset x="127" y="136" z="147" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="0" z="2" />
+              <BoneOffset x="119" y="95" z="104" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="9" />
+              <BoneOffset x="118" y="124" z="151" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="8" />
+              <BoneOffset x="118" y="127" z="100" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="-2" z="2" />
+              <BoneOffset x="147" y="149" z="105" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="2" />
+              <BoneOffset x="127" y="127" z="115" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="-2" z="3" />
+              <BoneOffset x="127" y="142" z="146" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="4" y="3" z="7" />
+              <BoneOffset x="116" y="127" z="150" />
+            </BoneInfo>
+          </Skeleton>
+          <XMirroxPlane x="0" y="0" z="4" />
+          <DisplayName>AS2-Drone-Wreckage-2</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <CreatePhysics>false</CreatePhysics>
+          <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+    </Prefab>
+  </Prefabs>
+</Definitions>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B1-Loot-Cargo-Medium</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Loot]
+
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/SmallBlockMediumContainer]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+
+        [ContainerTypes:AS2-B1-ContainerTypes-Mixed-1]
+        [ContainerTypes:AS2-B1-ContainerTypes-Mixed-2]
+        [ContainerTypes:AS2-B1-ContainerTypes-Mixed-3]
+        [ContainerTypes:AS2-B1-ContainerTypes-Mixed-4]
+
+        [MinBlocks:3]
+        [MaxBlocks:3]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

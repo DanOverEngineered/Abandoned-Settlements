@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-Trigger-Camp</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B2-Action-Camp]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-Trigger-Services</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B2-Action-Services]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-Trigger-Processing</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B2-Action-Processing]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-Trigger-DNSK</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Conditions:AS2-Condition-DNSK]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B2-Action-DNSK]
+            </Description>
+        </EntityComponent>
+        
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-Trigger-AIEnabled</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Conditions:AS2-Condition-AIEnabled]
+                [Type:PlayerNear]
+                [TargetDistance:1000]
+                [MinCooldownMs:1000]
+                [MaxCooldownMs:2000]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B2-Action-AIEnabled]
+            </Description>
+        </EntityComponent>
+    </EntityComponents>
+</Definitions>	

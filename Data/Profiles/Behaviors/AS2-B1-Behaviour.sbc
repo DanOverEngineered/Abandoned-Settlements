@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<EntityComponents>
+    <!-- Claim type encounter -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Behaviour-Claim</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+            [Triggers:AS2-B1-Trigger-Claim]
+            [Triggers:AS2-B1-Trigger-DNSK]
+        </Description>
+    </EntityComponent>
+
+    <!-- Maintenance type encounter -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Behaviour-Maintenance</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+            [Triggers:AS2-B1-Trigger-Maintenance]
+            [Triggers:AS2-B1-Trigger-DNSK]
+        </Description>
+    </EntityComponent>
+
+    <!-- Security type encounter -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Behaviour-Security</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+            [Triggers:AS2-B1-Trigger-Security]
+            [Triggers:AS2-B1-Trigger-DNSK]
+        </Description>
+    </EntityComponent>
+
+    <!-- Surveyor type encounter -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B1-Behaviour-Surveyor</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+            [Triggers:AS2-B1-Trigger-Surveyor]
+            [Triggers:AS2-B1-Trigger-DNSK]
+        </Description>
+    </EntityComponent>
+</EntityComponents>
+</Definitions>

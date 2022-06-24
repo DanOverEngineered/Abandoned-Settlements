@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B2-MES-Manipulation</SubtypeId>
+        </Id>
+        <Description>
+            [MES Manipulation]
+            [ManipulationChance:100]
+            [ClearAuthorship:true]
+            [ClearGridInventories:true]
+            
+            [UseLootProfiles:true]
+            [ClearExistingContainerTypes:true]
+            [LootProfiles:AS2-B2-Loot-Freight]
+            [LootProfiles:AS2-B2-Loot-Lockers]
+            [LootProfiles:AS2-B2-Loot-Armoury]
+            [LootProfiles:AS2-B2-Loot-Cockpit]
+            [LootProfiles:AS2-B0-Loot-H2Generator]
+        </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-MES-Manipulation-Processing</SubtypeId>
+            </Id>
+            <Description>
+                [MES Manipulation]
+                [ManipulationChance:100]
+                [ClearAuthorship:true]
+                [ClearGridInventories:true]
+                
+                [UseLootProfiles:true]
+                [ClearExistingContainerTypes:true]
+                [LootProfiles:AS2-B2-Loot-Freight-Processing]
+                [LootProfiles:AS2-B2-Loot-Lockers]
+                [LootProfiles:AS2-B2-Loot-Armoury]
+                [LootProfiles:AS2-B0-Loot-H2Generator]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-MES-Manipulation-Services</SubtypeId>
+            </Id>
+            <Description>
+                [MES Manipulation]
+                [ManipulationChance:100]
+                [ClearAuthorship:true]
+                [ClearGridInventories:true]
+                
+                [UseLootProfiles:true]
+                [ClearExistingContainerTypes:true]
+                [LootProfiles:AS2-B2-Loot-Freight]
+                [LootProfiles:AS2-B2-Loot-Lockers-Services]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B2-MES-Manipulation-Camp</SubtypeId>
+        </Id>
+        <Description>
+            [MES Manipulation]
+            [ManipulationChance:100]
+            [ClearAuthorship:true]
+            [ClearGridInventories:true]
+            
+            [UseLootProfiles:true]
+            [ClearExistingContainerTypes:true]
+            [LootProfiles:AS2-B2-Loot-Freight-Camp]
+            [LootProfiles:AS2-B2-Loot-Lockers]
+            [LootProfiles:AS2-B2-Loot-Armoury]
+            [LootProfiles:AS2-B2-Loot-Cockpit]
+            [LootProfiles:AS2-B0-Loot-H2Generator]
+        </Description>
+        </EntityComponent>
+    </EntityComponents>
+</Definitions>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Trigger-Mine</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B3-Action-Mine]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Trigger-Research</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B3-Action-Research]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Trigger-Processing</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B3-Action-Processing]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Trigger-Camp</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B3-Action-Camp]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Trigger-Town</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B3-Action-Town]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Trigger-DNSK</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Conditions:AS2-Condition-DNSK]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B3-Action-DNSK]
+            </Description>
+        </EntityComponent>
+
+
+    </EntityComponents>
+</Definitions>	
