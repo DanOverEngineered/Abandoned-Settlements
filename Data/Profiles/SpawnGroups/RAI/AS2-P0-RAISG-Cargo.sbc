@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Cargo-1</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Cargo-1">
+					<Position>
+						<X>0.0</X>
+						<Y>1.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Cargo-2</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Cargo-2">
+					<Position>
+						<X>0.0</X>
+						<Y>1.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Cargo-3</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Cargo-3">
+					<Position>
+						<X>0.0</X>
+						<Y>1.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-LootCrate-Single</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-LootCrate-Single">
+					<Position>
+						<X>0.0</X>
+						<Y>-0.25</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-LootCrate-Tools</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ClearAuthorship:true]
+				[ClearGridInventories:false]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-LootCrate-Tools">
+					<Position>
+						<X>0.0</X>
+						<Y>-0.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-LootCrate-Loose</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-LootCrate-Loose">
+					<Position>
+						<X>0.0</X>
+						<Y>-0.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-LootCrate-Dead</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-LootCrate-Dead">
+					<Position>
+						<X>0.0</X>
+						<Y>0.2</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-LootCrate-Double</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-LootCrate-Double">
+					<Position>
+						<X>0.0</X>
+						<Y>-0.25</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-B0-LootCrate-DNSK</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation-DNSK]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-LootCrate-DNSK">
+					<Position>
+						<X>0.0</X>
+						<Y>-0.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+	</SpawnGroups>
+</Definitions>

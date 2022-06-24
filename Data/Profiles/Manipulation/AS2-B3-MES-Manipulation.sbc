@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-MES-Manipulation</SubtypeId>
+            </Id>
+            <Description>
+                [MES Manipulation]
+                [ManipulationChance:100]
+                [ClearAuthorship:true]
+                [ClearGridInventories:true]
+                
+                [UseLootProfiles:true]
+                [ClearExistingContainerTypes:true]
+                [LootProfiles:AS2-B3-Loot-Freight]
+                [LootProfiles:AS2-B3-Loot-Lockers]
+                [LootProfiles:AS2-B3-Loot-Armoury]
+                [LootProfiles:AS2-B3-Loot-Cockpit]
+                [LootProfiles:AS2-B0-Loot-H2Generator]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-MES-Manipulation-Processing</SubtypeId>
+            </Id>
+            <Description>
+                [MES Manipulation]
+                [ManipulationChance:100]
+                [ClearAuthorship:true]
+                [ClearGridInventories:true]
+                
+                [UseLootProfiles:true]
+                [ClearExistingContainerTypes:true]
+                [LootProfiles:AS2-B3-Loot-Freight-Processing]
+                [LootProfiles:AS2-B3-Loot-Lockers]
+                [LootProfiles:AS2-B3-Loot-Armoury]
+                [LootProfiles:AS2-B0-Loot-H2Generator]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-MES-Manipulation-Research</SubtypeId>
+            </Id>
+            <Description>
+                [MES Manipulation]
+                [ManipulationChance:100]
+                [ClearAuthorship:true]
+                [ClearGridInventories:true]
+                
+                [UseLootProfiles:true]
+                [ClearExistingContainerTypes:true]
+                [LootProfiles:AS2-B3-Loot-Freight-Research]
+                [LootProfiles:AS2-B3-Loot-Lockers-Research]
+                [LootProfiles:AS2-B3-Loot-Armoury]
+                [LootProfiles:AS2-B0-Loot-H2Generator]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-MES-Manipulation-Mining</SubtypeId>
+            </Id>
+            <Description>
+                [MES Manipulation]
+                [ManipulationChance:100]
+                [ClearAuthorship:true]
+                [ClearGridInventories:true]
+                
+                [UseLootProfiles:true]
+                [ClearExistingContainerTypes:true]
+                [LootProfiles:AS2-B3-Loot-Freight-Mining]
+                [LootProfiles:AS2-B3-Loot-Lockers]
+                [LootProfiles:AS2-B3-Loot-Armoury]
+                [LootProfiles:AS2-B0-Loot-H2Generator]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-MES-Manipulation-Camp</SubtypeId>
+            </Id>
+            <Description>
+                [MES Manipulation]
+                [ManipulationChance:100]
+                [ClearAuthorship:true]
+                [ClearGridInventories:true]
+                
+                [UseLootProfiles:true]
+                [ClearExistingContainerTypes:true]
+                [LootProfiles:AS2-B3-Loot-Freight-Camp]
+                [LootProfiles:AS2-B3-Loot-Lockers]
+                [LootProfiles:AS2-B3-Loot-Armoury]
+                [LootProfiles:AS2-B3-Loot-Cockpit]
+                [LootProfiles:AS2-B0-Loot-H2Generator]
+            </Description>
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-Action-Camp</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B2-Spawn-Dwelling-Inner]
+                [Spawner:AS2-B2-Spawn-Dwelling-Inner]
+                [Spawner:AS2-B2-Spawn-Pallet]
+                [Spawner:AS2-B2-Spawn-Dwelling-Outer]
+                [Spawner:AS2-B2-Spawn-Dwelling-Outer]
+                [Spawner:AS2-B2-Spawn-Defensive-AP]
+                [Spawner:AS2-B2-Spawn-Defensive-AG]
+                [Spawner:AS2-B2-Spawn-Infrastructure-Inner]
+                [Spawner:AS2-B2-Spawn-Infrastructure-Outer]
+                                
+                [UseChatBroadcast:true]
+                [ChatData:AS2-B2-Notify]
+                [ChatData:AS2-B2-Chat]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-Action-Services</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B2-Spawn-Vehicle]
+                [Spawner:AS2-B2-Spawn-Vehicle]
+                [Spawner:AS2-B2-Spawn-Vehicle]
+                [Spawner:AS2-B2-Spawn-Infrastructure-Inner]
+                [Spawner:AS2-B2-Spawn-Infrastructure-Inner]
+                [Spawner:AS2-B2-Spawn-Defensive-AP]
+                [Spawner:AS2-B2-Spawn-Defensive-AG]
+                [Spawner:AS2-B2-Spawn-Infrastructure-Outer]
+                [Spawner:AS2-B2-Spawn-Infrastructure-Outer]
+                                
+                [UseChatBroadcast:true]
+                [ChatData:AS2-B2-Notify]
+                [ChatData:AS2-B2-Chat]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-Action-Processing</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B2-Spawn-Dwelling-Outer]
+                [Spawner:AS2-B2-Spawn-Dwelling-Outer]
+                [Spawner:AS2-B2-Spawn-Defensive-AP]
+                [Spawner:AS2-B2-Spawn-Defensive-AG]
+                                
+                [UseChatBroadcast:true]
+                [ChatData:AS2-B2-Notify]
+                [ChatData:AS2-B2-Chat]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-Action-DNSK</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B2-Spawn-Cargo-DNSK]
+                [Spawner:AS2-B2-Spawn-Cargo-DNSK]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-Action-AIEnabled</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B3-Spawn-Guard-Bot]
+                [Spawner:AS2-B3-Spawn-Grinder-Bot]
+            </Description>
+        </EntityComponent>
+        
+    </EntityComponents>
+</Definitions>	        

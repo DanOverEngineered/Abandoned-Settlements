@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<EntityComponents>
+    <!-- survivor type encounter -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B0-Behaviour-Survivor</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+
+            [UsePlayerDistanceTimer:false]
+            
+            [Triggers:AS2-B0-Trigger-Survivor]
+            [Triggers:AS2-B0-Trigger-DNSK]
+        </Description>
+    </EntityComponent>
+
+    <!-- survivor type encounter, just no survivors -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B0-Behaviour-NoSurvivors</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+
+            [UsePlayerDistanceTimer:false]
+            
+            [Triggers:AS2-B0-Trigger-NoSurvivors]
+            [Triggers:AS2-B0-Trigger-DNSK]
+        </Description>
+    </EntityComponent>
+
+
+    <!-- settler type encounter -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>AS2-B0-Behaviour-Settler</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+            [BehaviorName:Passive]
+
+            [UsePlayerDistanceTimer:false]
+            
+            [Triggers:AS2-B0-Trigger-Settler]
+            [Triggers:AS2-B0-Trigger-DNSK]
+        </Description>
+    </EntityComponent>
+</EntityComponents>
+</Definitions>

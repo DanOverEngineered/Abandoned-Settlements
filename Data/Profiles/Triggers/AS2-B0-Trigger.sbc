@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <!-- survivor type encounter -->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B0-Trigger-Survivor</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B0-Action-Survivor]
+            </Description>
+        </EntityComponent>
+
+        <!-- survivor type encounter, just no survivors -->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B0-Trigger-NoSurvivors</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B0-Action-NoSurvivors]
+            </Description>
+        </EntityComponent>
+
+        <!-- settler type encounter -->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B0-Trigger-Settler</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B0-Action-Settler]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B0-Trigger-DNSK</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Conditions:AS2-Condition-DNSK]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B0-Action-DNSK]
+            </Description>
+        </EntityComponent>
+    </EntityComponents>
+</Definitions>	

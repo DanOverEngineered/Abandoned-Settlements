@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Pallet-Generator</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Pallet-Generator">
+					<Position>
+						<X>0.0</X>
+						<Y>0.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Pallet-Cargo</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Pallet-Cargo">
+					<Position>
+						<X>0.0</X>
+						<Y>0.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Pallet-Thruster</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Pallet-Thruster">
+					<Position>
+						<X>0.0</X>
+						<Y>0.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Pallet-Welder</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Pallet-Welder">
+					<Position>
+						<X>0.0</X>
+						<Y>0.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-Pallet-Grinder</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B0-RAI-SpawnCondition]
+				[ManipulationProfiles:AS2-B0-RAI-Manipulation]
+				[IgnoreCleanupRules:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Pallet-Grinder">
+					<Position>
+						<X>0.0</X>
+						<Y>0.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+	</SpawnGroups>
+</Definitions>

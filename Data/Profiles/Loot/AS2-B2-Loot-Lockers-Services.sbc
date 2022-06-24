@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-Loot-Lockers-Services</SubtypeId>
+            </Id>
+            <Description>
+
+                [MES Loot]
+
+                [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockers]
+                [ContainerTypes:AS2-B2-ContainerTypes-Components-Basic]
+                [ContainerTypes:AS2-B2-ContainerTypes-Components-Advanced]
+                [MinBlocks:3]
+                [MaxBlocks:4]
+            </Description>
+
+        </EntityComponent>
+        
+
+    </EntityComponents>
+</Definitions>

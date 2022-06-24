@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-B2-Defensive-Gatling</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B2-RAI-SpawnCondition-Defensive]
+				[ManipulationProfiles:AS2-B2-RAI-Manipulation-Gatling]
+                [IgnoreCleanupRules:true]
+                [ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B2-Replenishment-Gatling]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Defensive-Gatling">
+					<Position>
+						<X>0.0</X>
+						<Y>1.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+        
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-B2-Defensive-Cannon</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B2-RAI-SpawnCondition-Defensive]
+				[ManipulationProfiles:AS2-B2-RAI-Manipulation]
+                [IgnoreCleanupRules:true]
+                [ReplenishSystems:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Defensive-Cannon">
+					<Position>
+						<X>0.0</X>
+						<Y>1.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-B2-Defensive-InteriorTurret</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B2-RAI-SpawnCondition-Defensive]
+				[ManipulationProfiles:AS2-B2-RAI-Manipulation]
+                [IgnoreCleanupRules:true]
+                [ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B2-Replenishment-Interior]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Defensive-InteriorTurret">
+					<Position>
+						<X>0.0</X>
+						<Y>1.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-B2-Defensive-Custom-Gatling</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B2-RAI-SpawnCondition-Defensive]
+				[ManipulationProfiles:AS2-B2-RAI-Manipulation-Gatling]
+                [IgnoreCleanupRules:true]
+                [ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B2-Replenishment-Gatling]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Defensive-Custom-Gatling">
+					<Position>
+						<X>0.0</X>
+						<Y>1.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-B2-Defensive-Custom-Auto</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B2-RAI-SpawnCondition-Defensive]
+				[ManipulationProfiles:AS2-B2-RAI-Manipulation-AutoCannon]
+                [IgnoreCleanupRules:true]
+                [ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B2-Replenishment-AutoCannon]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Defensive-Custom-Auto">
+					<Position>
+						<X>0.0</X>
+						<Y>1.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-B2-Defensive-SG-Gatling</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B2-RAI-SpawnCondition-Defensive]
+				[ManipulationProfiles:AS2-B2-RAI-Manipulation-Gatling]
+                [IgnoreCleanupRules:true]
+                [ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B2-Replenishment-Gatling]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Defensive-SG-Gatling">
+					<Position>
+						<X>0.0</X>
+						<Y>0.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-B2-Defensive-SG-Auto</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B2-RAI-SpawnCondition-Defensive]
+				[ManipulationProfiles:AS2-B2-RAI-Manipulation-AutoCannon]
+                [IgnoreCleanupRules:true]
+                [ReplenishSystems:true]
+                [ReplenishProfiles:AS2-B2-Replenishment-AutoCannon]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Defensive-SG-Auto">
+					<Position>
+						<X>0.0</X>
+						<Y>0.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+        <SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>AS2-B2-Defensive-SG-Assault</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [SpawnConditionsProfiles:AS2-B2-RAI-SpawnCondition-Defensive]
+				[ManipulationProfiles:AS2-B2-RAI-Manipulation]
+                [IgnoreCleanupRules:true]
+                [ReplenishSystems:true]
+			</Description>
+			<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="AS2-Defensive-SG-Assault">
+					<Position>
+						<X>0.0</X>
+						<Y>0.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0.0</Speed>
+					<Behaviour></Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+	</SpawnGroups>
+</Definitions>

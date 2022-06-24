@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-Condition-No-Turrets</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Condition]
+                [UseConditions:true]
+                [MatchAnyCondition:true]
+                [CheckTrueSandboxBooleans:true]
+                [TrueSandboxBooleans:AS2-No-Turrets]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-Condition-No-Drones</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Condition]
+                [UseConditions:true]
+                [MatchAnyCondition:true]
+                [CheckTrueSandboxBooleans:true]
+                [TrueSandboxBooleans:AS2-No-Drones]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-Condition-No-Bots</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Condition]
+                [UseConditions:true]
+                [MatchAnyCondition:true]
+                [CheckTrueSandboxBooleans:true]
+                [TrueSandboxBooleans:AS2-No-Bots]
+            </Description>
+        </EntityComponent>
+    </EntityComponents>
+</Definitions>
