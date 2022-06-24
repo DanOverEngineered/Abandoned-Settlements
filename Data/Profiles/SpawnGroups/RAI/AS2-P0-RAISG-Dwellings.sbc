@@ -100,7 +100,7 @@
 				<Prefab SubtypeId="AS2-Portahut-Crew">
 					<Position>
 						<X>0.0</X>
-						<Y>1.0</Y>
+						<Y>0.50</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>0.0</Speed>
