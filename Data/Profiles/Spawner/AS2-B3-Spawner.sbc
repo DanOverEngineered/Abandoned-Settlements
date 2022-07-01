@@ -231,6 +231,7 @@
                 [SpawnMinCooldown:1]
                 [SpawnMaxCooldown:2]
                 [MaxSpawns:-1]
+				[ProcessAsAdminSpawn:true]
                 [SpawningType:Creature]
                 [SpawnGroups:AS2-B3-Guard-Bot]
                 [SpawnGroups:AS2-B3-Boss-Bot]
@@ -248,6 +249,7 @@
                 [SpawnMinCooldown:1]
                 [SpawnMaxCooldown:2]
                 [MaxSpawns:-1]
+				[ProcessAsAdminSpawn:true]
                 [SpawningType:Creature]
                 [SpawnGroups:AS2-B3-Grinder-Bot]
             </Description>
