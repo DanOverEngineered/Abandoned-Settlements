@@ -11,6 +11,7 @@
                         
                 [CreatureSpawn:true]
                 [CreatureIds:Police_Bot]
+				[AdminSpawnOnly:true]
                 [AiEnabledModBots:true]
                 [AiEnabledRole:SOLDIER]
                 [FactionOwner:QARC]
@@ -48,6 +49,7 @@
                         
                 [CreatureSpawn:true]
                 [CreatureIds:Space_Skeleton]
+				[AdminSpawnOnly:true]
                 [AiEnabledModBots:true]
                 [AiEnabledRole:GRINDER]
                 [FactionOwner:QARC]
@@ -85,6 +87,7 @@
                         
                 [CreatureSpawn:true]
                 [CreatureIds:Boss_Bot]
+				[AdminSpawnOnly:true]
                 [AiEnabledModBots:true]
                 [AiEnabledRole:BRUISER]
                 [FactionOwner:QARC]
